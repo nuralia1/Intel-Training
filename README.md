@@ -2,27 +2,31 @@
 ## **Day 1**
 <details><summary> Notes </summary>
 
-## **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
+### **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
 
-<details><summary> FPGA VS ASIC </summary>
+   <details><summary> FPGA VS ASIC </summary>
  
-### **FPGA VS ASIC**
+   #### **FPGA VS ASIC**
 
 
 
-   </details>
+      </details>
    </details>
 
 <details><summary> Assignment </summary>
 
-## **Assignment**
+### **Assignment**
 
 
    </details>
 
-## **Lab**
-<details><summary> Setup Labs </summary>
- 
-#### Steps to enable labs:
+<details><summary> Lab </summary>
 
+### **Lab**
+
+   <details><summary> Setup Labs </summary>
+ 
+   #### Steps to enable labs:
+
+      </details>
    </details>
