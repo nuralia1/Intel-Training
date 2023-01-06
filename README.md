@@ -1,6 +1,7 @@
 # **Intel-Training** 
 ## **Day 1**
 <details><summary> Notes </summary>
+
 ## **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
 
 <details><summary> FPGA VS ASIC </summary>
@@ -13,6 +14,7 @@
    </details>
 
 <details><summary> Assignment </summary>
+
 ## **Assignment**
 
 
