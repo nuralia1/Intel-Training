@@ -10,7 +10,7 @@
 
 
 
-      </details>
+   </details>
    </details>
 
 <details><summary> Assignment </summary>
@@ -28,5 +28,5 @@
  
    #### Steps to enable labs:
 
-      </details>
+   </details>
    </details>
