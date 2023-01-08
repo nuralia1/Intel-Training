@@ -14,6 +14,7 @@
    <details><summary> FPGA VS ASIC </summary>
  
    #### **FPGA VS ASIC**
+
 * **FPGA** - is a multipurpose microchip you can reprogram for multiple applications
 * **ASIC** - is designed for a specific application 
 
