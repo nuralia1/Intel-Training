@@ -17,6 +17,7 @@
 * **FPGA** - is a multipurpose microchip you can reprogram for multiple applications
 * **ASIC** - is designed for a specific application 
 
+
 |                   |     FPGA      |   ASIC      |
 |  -------------    | ------------- | ----------- |
 |  Time to Market   |     Fast      |    Slow     |
