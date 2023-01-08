@@ -24,8 +24,7 @@
    <details><summary> Moore's Law </summary> 
 
    #### **Moore's Law**
-* **Moore's Law** - Number of transistors on a microchip doubles every two years.
-		  - We can expect the speed and capability of our computers to increase every two years but we will pay less for them.
+* **Moore's Law** - Number of transistors on a microchip doubles every two years. We can expect the speed and capability of our computers to increase every two years but we will pay less for them.
 
    </details>
 
@@ -34,6 +33,7 @@
    #### **Full custom design vs semi custom design**
 
 |                Full custom design                    |                                      Semi custom design                                     |
+|  ------------------------------------------------    | ------------------------------------------------------------------------------------------- |
 | All mask layers are customised in full custom design | It uses pree-designed logic cell (AND gates, OR gate, multiplexers) known as standard cells |
 |         Design time and complexity is higher         |                             Design time and complexity is lower                             |
 |                 higher performance                   |                                       low performance                                       |
