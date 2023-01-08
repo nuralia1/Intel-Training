@@ -46,8 +46,18 @@
 |   entire design is made without use of any library   |                  design is completed with the use of multiple library                       | 
 
    </details>
-   </details>
 
+   <details><summary> VLSI </summary> 
+
+   #### **VLSI**
+   ##### **What is VLSI technology?**
+* **Very-large-scale integration (VLSI)** is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip
+   
+   ##### **What is VLSI mainly used for?** 
+* VLSI is mainly used to design electronic components like microprocessors and memory chips
+   
+   </details>
+   </details>
 
 
 <details><summary> Lab </summary>
