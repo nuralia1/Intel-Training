@@ -51,7 +51,7 @@
 
    #### **VLSI**
    ##### **What is VLSI technology?**
-* **Very-large-scale integration (VLSI)** is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip
+* **Very-large-scale integration (VLSI)** is the process of creating an integrated circuit (IC) by combining millions or billions of transistors into a single chip
 * VLSI is a successor to large-scale integration (LSI), medium-scale integration (MSI) and small-scale integration (SSI) technologies   
 
 ##### **What is VLSI mainly used for?** 
