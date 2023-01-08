@@ -3,15 +3,7 @@
 <details><summary> Notes </summary>
 
 ### **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
-
-   <details><summary> Moore's Law </summary> 
-
-   #### **Moore's Law**
-* **Moore's Law** - Number of transistors on a microchip doubles every two years. We can expect the speed and capability of our computers to increase every two years but we will pay less for them.
-
-   </details>
-
-
+   
    <details><summary> FPGA VS ASIC </summary>
 
    #### **FPGA VS ASIC**
@@ -29,6 +21,15 @@
 |     Unit Size     |    Medium     |    Low      |
   
    </details>
+
+
+   <details><summary> Moore's Law </summary> 
+
+   #### **Moore's Law**
+* **Moore's Law** - Number of transistors on a microchip doubles every two years. We can expect the speed and capability of our computers to increase every two years but we will pay less for them.
+
+   </details>
+
 
 
    <details><summary> Full custom design vs semi custom design </summary> 
