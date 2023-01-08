@@ -34,7 +34,7 @@
 
 |                Full custom design                    |                                      Semi custom design                                     |
 |  ------------------------------------------------    | ------------------------------------------------------------------------------------------- |
-| All mask layers are customised in full custom design | It uses pree-designed logic cell (AND gates, OR gate, multiplexers) known as standard cells |
+| All mask layers are customised in full custom design | It uses pre-designed logic cell (AND gates, OR gate, multiplexers) known as standard cells |
 |         Design time and complexity is higher         |                             Design time and complexity is lower                             |
 |                 higher performance                   |                                       low performance                                       |
 |                      low cost                        |                                         high cost                                           | 
