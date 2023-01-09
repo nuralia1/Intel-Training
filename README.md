@@ -61,13 +61,3 @@
    </details>
 
 
-<details><summary> Lab </summary>
-
-### **Lab**
-
-   <details><summary> Setup Labs </summary>
- 
-   #### Steps to enable labs:
-
-   </details>
-   </details>
