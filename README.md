@@ -6,6 +6,12 @@
    
    <details><summary> FPGA VS ASIC </summary>
 
+   #### **These are different VLSI Design styles:**
+
+* Field programming gate array (FPGA) design
+* Standard cell based design -----  ASIC
+* Full custom design -------------  ASIC
+
    #### **FPGA VS ASIC**
 * **FPGA** - is a multipurpose microchip you can reprogram for multiple applications
 * **ASIC** - is designed for a specific application 
