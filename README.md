@@ -75,3 +75,27 @@
 
    </details>
    </details>
+
+
+## **Day 2**
+<details><summary> Notes </summary>
+
+### **Notes- Analog VLSI Design Flow and CMOS Fabrication Process**
+
+   <details><summary> CMOS Fabrication Process </summary>
+
+   #### **CMOS Fabrication Process**
+   ##### **Process Steps:**
+   1. wafer formation (sand-to-silicon)
+   2. Photolithography
+   3. Well and Channel Formation
+   4. Silicon Dioxide 
+   5. Isolation 
+   6. Gate Oxide Creation 
+   7. Gate and Source/Drain Formations
+   8. Contacts and Metallization 
+   9. Passivation
+   10. Metrology
+   
+   ##### **Fabrication Process**
+   
