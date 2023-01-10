@@ -124,7 +124,48 @@
 <details><summary> Notes </summary>
 
 ### **Notes- Analog VLSI Design Flow and CMOS Fabrication Process**
+	
+   <details><summary> Analog IC Design Process </summary>
+	   
+   #### **Analog IC Design Process**
+|         Electrical Design          |     Physical Design      |   Test Design      |
+|  -------------    | ------------- | ----------- |
+| Electrical design is the process of going from the specification to a circuit solution   |     Physical design is the process of representing the electrical design in a layout consisting of many distinct geometrical rectangle at various levels      |    Test design is the process of coordinating, planning and implementing the measurement of the analog integrated circuit performance     |
+| The electrical design requires active and passive device electrical models for creating the design, verifying the design and determining the robustness of the design |     The physical design needs: Entering various geometries, Follow DRC, Check LVS, Extract Parasitic     |    Types of test: Functional, Parametric, Static, Dynamic     |
 
+Test Design:
+• Test design is the process of
+coordinating, planning and
+implementing the
+measurement of the analog
+integrated circuit
+performance
+• Types of test:
+• Functional
+• Parametric
+• Static
+• Dynamic
+
+   </details>
+	
+   <details><summary> CMOS Technology </summary>
+	   
+   #### **CMOS Technology**
+	   
+|         Comparison Feature          |     BJT      |   MOSFET      |
+|  -------------    | ------------- | ----------- |
+| Cut-off Frequency (FT)   |     High      |    Less     |
+|   Noise (at same thermal noise)    |    Less 1/f     |  More 1/f    |
+|    DC Range of Operation      |     9 decades of exponential current versus VBE      |    2-3 decades of square law behaviour     |
+|    Transconductance (Same Current)    |     Larger by 10X       |    Smaller by 10X     |
+| Small Signal Output Resistance |     Slightly larger      |    Smaller for short channel      |
+|     Switch Implementation     |    Poor    |    Good      |	
+|    Capacitor    |    Voltage dependent    |    More option      |
+|     Performance/Power Ratio     |    High    |    Low      |	
+|     Technology Improvement     |    Slower    |    Faster      |
+	  
+   </details>
+	
    <details><summary> CMOS Fabrication Process </summary>
 
    #### **CMOS Fabrication Process**
@@ -245,3 +286,4 @@
 
       ![image](https://user-images.githubusercontent.com/121996204/211259579-41a7b31e-1cc4-4555-ad1d-c6a659547ab4.png)
 
+   </details>
