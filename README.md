@@ -87,6 +87,7 @@
    <details><summary> Pre-Lab </summary>
       
    #### **Pre-Lab - How to setup**
+[Pre-lab training day 1_nuraliah alwani rosli.pdf](https://github.com/nuralia1/Intel-Training/files/10379658/Pre-lab.training.day.1_nuraliah.alwani.rosli.pdf)
 
    </details>
    
