@@ -127,24 +127,15 @@
 	
    <details><summary> Analog IC Design Process </summary>
 	   
-   #### **Analog IC Design Process**
+   #### **Analog IC Design Process**.
+   
+![image](https://user-images.githubusercontent.com/121996204/211686158-037b81c6-6f76-42fd-b73a-23cc28e3025c.png)
+
 |         Electrical Design          |     Physical Design      |   Test Design      |
 |  -------------    | ------------- | ----------- |
 | Electrical design is the process of going from the specification to a circuit solution   |     Physical design is the process of representing the electrical design in a layout consisting of many distinct geometrical rectangle at various levels      |    Test design is the process of coordinating, planning and implementing the measurement of the analog integrated circuit performance     |
 | The electrical design requires active and passive device electrical models for creating the design, verifying the design and determining the robustness of the design |     The physical design needs: Entering various geometries, Follow DRC, Check LVS, Extract Parasitic     |    Types of test: Functional, Parametric, Static, Dynamic     |
 
-Test Design:
-• Test design is the process of
-coordinating, planning and
-implementing the
-measurement of the analog
-integrated circuit
-performance
-• Types of test:
-• Functional
-• Parametric
-• Static
-• Dynamic
 
    </details>
 	
