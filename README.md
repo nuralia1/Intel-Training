@@ -94,6 +94,27 @@
    <details><summary> Assignment - Semiconductor Devices </summary>
  
    #### **Assignment - Semiconductor Devices**
+      
+**1. What is the difference between conductor, semi-conductor and insulator?**
+      
+|          conductor                                             |     insulator                                                |   semiconductor                     |
+|  ------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------- |
+|The conductivity of conductor is high          |     The conductivity of insulator is very low   |   The conductivity of semiconductor is moderate      |
+|Low resistivity                                               |Very high resistivity                                                  |    moderate resistivity     |
+|It has no forbidden gap                                       |It has large forbidden gap                  |    	It has small forbidden gap     |
+|Conductor has positive temperature coefficient of resistance  |insulator has negative temperature coefficient of resistance           |semiconductor has negative temperature coefficient of resistance     |
+|Effect of resistance and temperature are increase             |Effect of resistance is decrease and effect of temperature is increase |Effect of resistance is decrease and effect of temperature is increase     |
+|There is a large number of electrons available for conduction |There is a small number of electrons available for conduction          |There is a moderate number of electrons available for conduction     |
+|Example: Metal, aluminium, copper                             |Paper, Mica glass                                                      |Silicon, Germanium     |
+	
+
+**2. Which semiconductor material used mostly for IC design and why?**
+      
+* Silicon is the most widely used semiconductor material as it is more efficient in producing high-speed integrated circuits. It can be used as either an insulator (doesn't allow electricity to flow) or a semiconductor (allows a little flow of electricity). This is important for making chips and very cheap. Silicon elements are able to bind atoms tightly and in complex arrangements. The abundance of silicon makes it inexpensive and easy to acquire. 
+
+  **3. What is the difference between Silicon and Germanium?**
+      
+      
 
    </details>
    </details>
