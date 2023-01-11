@@ -108,13 +108,146 @@
 |Example: Metal, aluminium, copper                             |Paper, Mica glass                                                      |Silicon, Germanium     |
 	
 
+
+
 **2. Which semiconductor material used mostly for IC design and why?**
       
 * Silicon is the most widely used semiconductor material as it is more efficient in producing high-speed integrated circuits. It can be used as either an insulator (doesn't allow electricity to flow) or a semiconductor (allows a little flow of electricity). This is important for making chips and very cheap. Silicon elements are able to bind atoms tightly and in complex arrangements. The abundance of silicon makes it inexpensive and easy to acquire. 
 
-  **3. What is the difference between Silicon and Germanium?**
+
+
+
+**3. What is the difference between Silicon and Germanium?**
       
-      
+|         Silicon          |     Germanium      |
+|  -------------    | ------------- |
+|  Silicon is the chemical element present in periodic table with atomic number 14 and represented as Si  |     Germanium is the chemical element present in the periodic table with atomic number 32 and represented as Ge      |
+|       The atomic radius is smaller compared with Germanium because of smaller atomic number    |     The atomic radius is larger compared with Silicon      | 
+|  Silicons are less conductive than Germanium    | Germanium is more conductive in nature |
+|  Silicons are used as semiconductors as they can withstand up to higher temperature ranges.   |  Germanium cannot be used as semiconductors as they have a certain limit to temperatures  |
+
+
+
+
+**5. What is doping? What are the different types of trivalent and pentavalent impurity materials?**
+
+* **Doping**
+   * **Doping** is the process of adding impurities to intrinsic semiconductors to alter their properties. 
+   * The conductivity of metal is increased by adding an appropriate amount of suitable impurity. This process is known as doping. 
+   * It can be performed with an impurity that is electron-rich or electron-deficient than the intrinsic semiconductor silicon or germanium.
+
+
+* **Pentavalent impurities**
+   * **Pentavalent impurities** are the atoms with five valence electrons used for the doping of semiconductors. 
+   * For example: Arsenic (As), Phosphorous (Pi), Antimony (Sb)
+
+* **Trivalent impurities** 
+   * **Trivalent impurities** are called Acceptor impurities. Since the trivalent atoms, an element whose each atom has 3 valence electrons is called Trivalent impurity. 
+   * For example: Indium ,Gallium,Aluminium,Boron
+   
+   
+
+
+**7. What is PN junction? How it behaves without any external bias voltage?**
+
+* A P-N junction is an interface or a boundary between two semiconductor material types, namely the p-type and the n-type, inside a semiconductor. In a semiconductor,   the P-N junction is created by the method of doping.
+
+* Zero Bias – No external voltage potential is applied to the PN junction diode.
+  * When a diode is Zero Biased no external energy source is applied and a natural Potential Barrier is developed across a depletion layer which is approximately 0.5       to 0.7v for silicon diodes and approximately 0.3 of a volt for germanium diodes.
+  
+  * in zero bias or thermal equilibrium state junction potential provides higher potential energy to the holes on the P-side than the N-side. If the terminals of           junction diode are shorted, few majority charge carriers (holes) in the P side with sufficient energy to surmount the potential barrier travel across the depletion     region
+  
+  * Therefore, with the help of holes, current starts to flow in the diode and it is referred to as forward current. In the similar manner, holes in the N side move       across the depletion region in reverse direction and the current generated in this fashion is referred to as reverse current.
+  
+  * The potential barrier that now exists discourages the diffusion of any more majority carriers across the junction. However, the potential barrier helps minority       carriers (few free electrons in the P-region and few holes in the N-region) to drift across the junction.
+  
+  * Then an “Equilibrium” or balance will be established when the majority carriers are equal and both moving in opposite directions, so that the net result is zero       current flowing in the circuit. When this occurs the junction is said to be in a state of “Dynamic Equilibrium“.
+  
+  * The minority carriers are constantly generated due to thermal energy so this state of equilibrium can be broken by raising the temperature of the PN junction           causing an increase in the generation of minority carriers, thereby resulting in an increase in leakage current but an electric current cannot flow since no           circuit has been connected to the PN junction
+  
+![image](https://user-images.githubusercontent.com/121996204/211701809-3a15381c-7622-4fc6-8624-78f0d3f9f929.png)
+
+
+
+
+**8. What is built-in potential of a P-N junction?**
+
+* The built-in potential of a P N junction diode is 0.7 V at room temperature
+
+
+
+
+**13. What is BJT and how it is different from the diode?**
+
+|                   |     diode      |   BJT      |
+|  -------------    | ------------- | ----------- |
+|  Definition   |     A semiconductor device in which current flows only in one direction      |    A semiconductor device which transfers the weak signal from low resistance circuit to high resistance circuit.     |
+|    Symbol    |   ![image](https://user-images.githubusercontent.com/121996204/211700559-e684d5f6-bd10-489e-8d08-cb711abb5d8f.png)     |  ![image](https://user-images.githubusercontent.com/121996204/211700573-cde340a2-78e2-4e02-9c28-89ebc0a9f8d4.png)    |
+|    Uses      |     The diode is used for converting the AC to DC or Rectification      |    Regulator, Amplification and Rectification      |
+|    Terminal    |     Two (Anode and Cathode)       |    Three (Emitter, Base and Collector)     |
+|    Switch      |     Uncontrolled      |    Controlled      |
+|    Region    |     P-region and N-region: The hole is the majority charge carrier of the P-region and electrons is the majority charge carrier of the N – region of the diode    |    Emitter, Collector and Base: the base is the smallest region, and the collector is the largest region     |
+
+
+
+
+**14. What is the difference between NPN and PNP BJT?**
+
+|         NPN          |     PNP      |  
+|  -------------    |  -------------    |
+|  The current flows from collector terminal to emitter terminal.   |     The current flows from emitter to collector terminal.    |
+|    One P-type semiconductor is sandwiched between the two N-type semiconductors    |    It is made of up two P-type material layers with N-type sandwiched between them   |
+|   The current flow from the collector is generated by keeping a +ve voltage there.      |   The current flow from the emitter to collector is generated at emitter terminal by keeping a +ve voltage there      |
+|    The transistor switches ON with the increase in current in the base terminal    |  The transistors switch ON when there is no current flow at the base terminal  |
+| When the current is reduced in the base, the transistor doesn’t function across the collector terminal and switches OFF |     When a current is present at the base of a PNP transistor, then the transistor switches OFF.    |
+
+![image](https://user-images.githubusercontent.com/121996204/211699607-c4f93aa1-f061-4448-9523-f69478076d73.png) 
+![image](https://user-images.githubusercontent.com/121996204/211699631-37b54da6-1271-4ac9-851e-6ea81b3816cb.png)
+![image](https://user-images.githubusercontent.com/121996204/211699641-b10706b0-e9d5-4b53-88cd-fe5a809d9691.png)
+![image](https://user-images.githubusercontent.com/121996204/211699664-c4b858ee-445f-4377-8c75-d0be999b404d.png)
+
+
+
+
+**18. What are the different types of MOSFET?**
+
+* **MOSFETs has two classes:**
+   * Enhancement mode
+   * Depletion mode
+   
+* Each class is available as n-channel or p-channel, hence overall they tally up to four types of MOSFETs.
+   * n-channel Depletion Mode
+   * p-channel Depletion Mode
+   * n-channel Enhancement Mode
+   * p-channel Enhancement Mode
+
+* **Depletion Mode**
+When there is no voltage across the gate terminal, the channel shows maximum conductance. When the voltage across the gate terminal is either positive or negative, then the channel conductivity decreases.
+
+* **Enhancement Mode**
+When there is no voltage across the gate terminal, then the device does not conduct. When there is the maximum voltage across the gate terminal, then the device shows enhanced conductivity.
+
+![image](https://user-images.githubusercontent.com/121996204/211695131-96d392cf-6757-4631-afaf-20aa97029517.png)
+
+
+
+
+**20. What is the difference between P-channel and N-channel MOSFET?**
+
+|         N-channel MOSFET          |     P-channel MOSFET      |
+|  -------------    | ------------- |
+|         N-channel MOSFET use electron flow as the charge carrier          |     P-channel MOSFET use hole flow as the charge carrier      |
+|  Higher mobility    | has less mobility than electron flow |
+|         Lower resistance          |     higher resistance      |
+|  higher efficient    | less efficient |
+|         Less heat generation          |     higher heat generation      |
+|  N-channel MOSFET occupies a lesser area    | P-channel MOSFET occupies a larger area |
+|         High switching device (mobility of electrons is high)          |     Low switching speed (mobility of holes is low)      |
+|         Smaller in size for same complexity          |     Size will be bigger      |
+
+![image](https://user-images.githubusercontent.com/121996204/211698278-5d31256f-503c-48ec-aeca-b089754a2e1f.png)
+	
+
 
    </details>
    </details>
@@ -127,7 +260,7 @@
 	
    <details><summary> Analog IC Design Process </summary>
 	   
-   #### **Analog IC Design Process**.
+   #### **Analog IC Design Process**
    
 ![image](https://user-images.githubusercontent.com/121996204/211686158-037b81c6-6f76-42fd-b73a-23cc28e3025c.png)
 
@@ -138,10 +271,18 @@
 
 
    </details>
-	
+   
+   <details><summary> Analog IC Design Process and its Relation with CAD and PDK </summary>
+	   
+#### **Analog IC Design Process and its Relation with CAD and PDK**
+   
+![image](https://user-images.githubusercontent.com/121996204/211687093-efd7621d-1be1-41fc-9022-05b951f80088.png)
+   
+   </details>
+   
    <details><summary> CMOS Technology </summary>
 	   
-   #### **CMOS Technology**
+#### **CMOS Technology**
 	   
 |         Comparison Feature          |     BJT      |   MOSFET      |
 |  -------------    | ------------- | ----------- |
@@ -163,9 +304,61 @@
    
    * ##### **Process Steps:**
    1. wafer formation (sand-to-silicon)
+   
+   <details><summary> wafer formation (sand-to-silicon) </summary>
+   
+  * The basic raw material used in CMOS fabs is a wafer or disk of silicon, roughly 75 mm to 300 mm (12 inch) in diameter and less than 1 mm thick
+  * Pure silicon is melted in a pot at 1400º C. 
+  * A small seed containing the desired crystal orientation is inserted into molten silicon and slowly (1mm/minute) pulled out. 
+  * The silicon crystal is manufactured as a cylindrical ingot. 
+  * This cylinder is sawed into discs or wafers. Polishing and crystal orientation takes place later on.
+   
+   </details>
+   
    2. Photolithography
+   
+   <details><summary> Photolithography </summary>
+   
+  * The wafer is coated with the photoresist and subjected to selective illumination through the photomask 
+  * A photomask is constructed with chromium (chrome) covered quartz glass. A UV light source is used to expose the photoresist
+  * It uses ultraviolet light and photomask to transfer the image from the photomask to the layer
+  * Photoresist that is sensitive to light allows the pattern underneath to be selectively exposed or selectively protected
+  * A developer solvent is then used to dissolve the soluble unexposed photoresist, leaving islands of insoluble exposed photoresist
+  
+   </details>
+   
    3. Well and Channel Formation
+   
+   <details><summary> Well and Channel Formation </summary>
+   
+  * There are 4 CMOS technology processes
+     * N-well process
+     * P-well process
+     * Twin-well process
+     * Triple-well process
+  
+   </details>
+   
    4. Silicon Dioxide 
+   
+   <details><summary> Silicon Dioxide </summary>
+   
+  * Wet Oxidation : when the oxidizing atmosphere contains water vapor.
+    * for thick oxide (field oxide)
+    * Fast growth rate (140 - 250 A/h)
+    * The temperature is usually between 900 °C and 1000 °C
+    * use for masking oxide and the LOCOS oxide
+    * Higher defect
+    
+  * Dry Oxidation: when the oxidizing atmosphere is pure oxygen
+    * best for thin oxide (less than 1000 A)
+    * Slow growth rate (140 - 250 A/h)
+    * Temperatures are in the region of 1200 °C to achieve an acceptable growth rate
+    * use for MOS transistor and dielectric components (use for dielectric layer)
+    * low surface state charges (low defect) and thus make ideal dielectrics for MOS transistors
+  
+   </details>
+   
    5. Isolation 
    6. Gate Oxide Creation 
    7. Gate and Source/Drain Formations
