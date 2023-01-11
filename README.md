@@ -471,3 +471,17 @@ When there is no voltage across the gate terminal, then the device does not cond
       ![image](https://user-images.githubusercontent.com/121996204/211259579-41a7b31e-1cc4-4555-ad1d-c6a659547ab4.png)
 
    </details>
+   </details>
+   
+<details><summary> Lab </summary>
+
+### **Lab**
+   
+   <details><summary> Assignment - Fabrication Process and Layout </summary>
+      
+   #### **Assignment - Fabrication Process and Layout**
+   
+[Fabrication-Process-and-Layout-Assignment_Nuraliah Alwani Rosli.pdf](https://github.com/nuralia1/Intel-Training/files/10391204/Fabrication-Process-and-Layout-Assignment_Nuraliah.Alwani.Rosli.pdf)
+
+   </details>
+   </details>
