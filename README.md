@@ -2,12 +2,54 @@
 ## Table of contents
 + **[ Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon ](https://github.com/nuralia1/Intel-Training#day-1)**
 + **[ Day 2 - Analog VLSI Design Flow and CMOS Fabrication Process ](https://github.com/nuralia1/Intel-Training#day-2)**
++ **[ Day 3 - CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology ](https://github.com/nuralia1/Intel-Training#day-3)**
++ **[ Day 4 - Metal-Oxide-Semiconductor Structure ](https://github.com/nuralia1/Intel-Training#day-4)**
 
-## **Day 1**
-<details><summary> Notes </summary>
 
-### **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
+
+
+
+## **Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon**
+
+<details><summary> Theory </summary>
+
+### **Theory- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
+
+
+
+   <details><summary> Overview of VLSI Design </summary> 
    
+   #### **Overview of VLSI Design**
+   
+* **Packaged Chip:**
+    * Different types of packaging are available (SIP, DIP, QFN, BGA etc)
+    * The central part of the chip is call die
+    * Integrated circuits are put into protective packages to allow easy handling and assembly onto printed circuit boards and to protect the devices from damage
+    * Integrated circuit packaging is the last assembly process before testing and shipping devices to customers.
+    
+    ![image](https://user-images.githubusercontent.com/121996204/212537263-52a2a056-f4a6-46c0-ac93-f4b922622324.png)
+
+
+* **Die and Wafer:**
+    * A die, in the context of integrated circuits, is a small block of semiconducting material on which a given functional circuit is fabricated
+    * Generally the die size is 1mm X 1mm or 1mm X 2mm.
+    * All the components fabricated on the die
+    * Wafer is the round slice of silicon that the individual die (chips) are printed on. Before processing, it’s shiny and clear.
+    * The wafer is cut (diced) into many pieces, each containing one copy of the circuit. Each of these pieces is called a die.
+    * The wafer diameter is around 12 inch ~ 300 mm.
+    * A Single wafer contains 10’s of thousands die
+    
+ ![image](https://user-images.githubusercontent.com/121996204/212537288-38681759-6e9c-471e-9b1b-531e57a10c10.png)
+
+
+* **Inside the Die**
+
+![image](https://user-images.githubusercontent.com/121996204/212538880-ddad0242-ec2d-4f1f-be24-5a85fd6afdd2.png)
+
+   </details>
+
+
+
    <details><summary> VLSI </summary> 
       
    #### **VLSI**
@@ -21,7 +63,9 @@
 * VLSI is mainly used to design electronic components like microprocessors and memory chips
    
    </details>
-   
+
+
+
    <details><summary> Moore's Law </summary>
       
 #### **Moore's Law**
@@ -78,7 +122,126 @@
    </details>
 
 
+
+   <details><summary> VLSI Design Quality </summary>
+
+#### **These are the criteria to be important to measure the design quality:**
+* Testability
+* Yield and Manufacturability
+* Reliability
+* Technology Upgradability
+
+
+1. **Testability:**
+     * Generation of good test vector
+     * Availability of good test fixture at speed
+     * Design of testable chip
+     
+2. **Yield and Manufacturability:**
+     * Yield: No. of tested ok chips/Total no. of Chips
+     * Functional Yield: Checks at lower speed
+     * Parametric Yield: Checks at required speed
+     
+3. **Reliability:**
+     * ESD and EOS
+     * Electromigration
+     * Oxide breakdown
+     * Power and ground bouncing
+     * On-chip noise and cross-talk
+     
+4. **Technology Upgradability**
+     * Rapid development of process technology results, the life span of a given technology generation has remain constant even for sub-micron technologies. 
+       * This Causes:
+         * Design of complex chip in a shorter time
+         * Technology updated to new design rules.
+         * Updating the mask to new design rules
+	 
+     * Design style should be chosen such that the technology update of the chip of functional module for design reuse can be achieved quickly with minimal cost.
+     * Designers can develop and use advanced CAD tools that automatically generates the physical layout
    </details>
+   
+   
+   
+   <details><summary> Types of Package </summary>
+
+#### **Types of Package**
+##### **These are classified by the method used to solder the package on the PCB:**
+
+1. **Pin-through-hole (PTH):**
+     * Pin-Through-hole is a method for mounting components on a printed circuit board (PCB) in which pins on the component are inserted into holes in the board and          soldered in place.
+     * This process is also known as conventional assembly.
+     * not cost effective but soldering process in not inexpensive.
+     
+     ![image](https://user-images.githubusercontent.com/121996204/212539977-3c253941-a7d5-4c62-900f-a82109ac596a.png)
+.
+
+* **These are package types for Pin-through-hole:**
+
+  * Dual-in-Line Package (DIPs)
+  * Pin Grid Array (PGA) Packages
+  * Single in-line Pin Package (SIP or SIPP)
+     
+     
+2. **Surface Mount Technology (SMT):** 
+     * Surface-mount technology, originally called planar mounting 
+     * Surface-mount technology (SMT) is a method in which the electrical components are mounted directly onto the surface of a printed circuit board. An electrical          component mounted in this manner is referred to as a surface-mount device.
+     * The components are attached and connected on the surface of the board using batch solder-reflow processes
+     * cost and space effective but expensive equipment's are needed for soldering
+     * Smaller size and reduced weight are the two main advantages to SMT
+     
+     ![image](https://user-images.githubusercontent.com/121996204/212540643-73dcf5b2-fbfc-4017-a5bc-9f083a09e426.png)
+
+
+* **These are package types for surface mount integrated circuits:**
+
+  * Small outline integrated circuit (SOIC)
+  * Small outline package (SOP)
+  * Quad flat pack (QFP)
+  * Plastic leaded chip carrier (PLCC)
+  * Ball grid array (BGA)
+  * Chip Carrier Packages (CCP)
+
+
+* **Comparison between Pin-through-hole (PTH) and Surface Mount Technology (SMT)**   
+
+![image](https://user-images.githubusercontent.com/121996204/212540127-d8387078-15ee-49b8-8f66-5a96ff7558eb.png)
+
+
+3. **Plastic:** 
+     * Dominant for many years but it has the disadvantage of being permeable to environmental moisture.
+     * Plastic packaging can absorb moisture in condensing atmospheres and ramped to >100C
+
+
+4. **Ceramic:** 
+     * In the beginning, every BGA/PGA package was based on a ceramic substrate but today laminate is a primary source for both low cost and high end applications. 
+     * Power consumption, performance and environmental requirements
+     * Ceramic packages are used for high temperature
+     * Ceramic packages with a hollow cavity can have particle contamination from the environment or the sealing process. 
+
+
+   </details>
+
+
+
+   <details><summary> CAD Tools </summary>
+
+#### **CAD Tools**  
+
+The CAD technology for VLSI chip design can be categorized into the following areas:
+   * High-level synthesis
+   * Logic synthesis
+   * Circuit optimization
+   * Layout
+   * Placement and routing
+   * Simulation
+   * Design rules and checking
+   
+   </details>
+   </details>
+
+
+
+
 
 <details><summary> Lab </summary>
 
@@ -90,8 +253,13 @@
 [Pre-lab training day 1_nuraliah alwani rosli.pdf](https://github.com/nuralia1/Intel-Training/files/10379658/Pre-lab.training.day.1_nuraliah.alwani.rosli.pdf)
 
    </details>
+   </details>
    
-   <details><summary> Assignment - Semiconductor Devices </summary>
+   
+   
+   
+   
+<details><summary> Assignment - Semiconductor Devices </summary>
  
    #### **Assignment - Semiconductor Devices**
       
@@ -253,25 +421,38 @@ When there is no voltage across the gate terminal, then the device does not cond
    </details>
 
 
-## **Day 2**
-<details><summary> Notes </summary>
 
-### **Notes- Analog VLSI Design Flow and CMOS Fabrication Process**
-	
+
+
+
+
+
+## **Day 2 - Analog VLSI Design Flow and CMOS Fabrication Process**
+
+<details><summary> Theory </summary>
+
+### **Theory- Analog VLSI Design Flow and CMOS Fabrication Process**
+
+
+
    <details><summary> Analog IC Design Process </summary>
 	   
    #### **Analog IC Design Process**
    
 ![image](https://user-images.githubusercontent.com/121996204/211686158-037b81c6-6f76-42fd-b73a-23cc28e3025c.png)
 
+
+
 |         Electrical Design          |     Physical Design      |   Test Design      |
 |  -------------    | ------------- | ----------- |
 | Electrical design is the process of going from the specification to a circuit solution   |     Physical design is the process of representing the electrical design in a layout consisting of many distinct geometrical rectangle at various levels      |    Test design is the process of coordinating, planning and implementing the measurement of the analog integrated circuit performance     |
 | The electrical design requires active and passive device electrical models for creating the design, verifying the design and determining the robustness of the design |     The physical design needs: Entering various geometries, Follow DRC, Check LVS, Extract Parasitic     |    Types of test: Functional, Parametric, Static, Dynamic     |
 
-
    </details>
-   
+
+
+
+
    <details><summary> Analog IC Design Process and its Relation with CAD and PDK </summary>
 	   
 #### **Analog IC Design Process and its Relation with CAD and PDK**
@@ -279,7 +460,10 @@ When there is no voltage across the gate terminal, then the device does not cond
 ![image](https://user-images.githubusercontent.com/121996204/211687093-efd7621d-1be1-41fc-9022-05b951f80088.png)
    
    </details>
-   
+
+
+
+
    <details><summary> CMOS Technology </summary>
 	   
 #### **CMOS Technology**
@@ -297,10 +481,13 @@ When there is no voltage across the gate terminal, then the device does not cond
 |     Technology Improvement     |    Slower    |    Faster      |
 	  
    </details>
-	
-   <details><summary> CMOS Fabrication Process </summary>
 
-   #### **CMOS Fabrication Process**
+
+
+
+   <details><summary> CMOS Fabrication Process Step </summary>
+
+   #### **CMOS Fabrication Process Step**
    
    * ##### **Process Steps:**
    1. wafer formation (sand-to-silicon)
@@ -315,6 +502,8 @@ When there is no voltage across the gate terminal, then the device does not cond
    
    </details>
    
+   
+   
    2. Photolithography
    
    <details><summary> Photolithography </summary>
@@ -327,6 +516,8 @@ When there is no voltage across the gate terminal, then the device does not cond
   
    </details>
    
+   
+   
    3. Well and Channel Formation
    
    <details><summary> Well and Channel Formation </summary>
@@ -336,8 +527,12 @@ When there is no voltage across the gate terminal, then the device does not cond
      * P-well process
      * Twin-well process
      * Triple-well process
+     
+     ![image](https://user-images.githubusercontent.com/121996204/212575252-edc54c67-b9e5-4078-8c07-4cd014e5dd3d.png)
   
    </details>
+   
+   
    
    4. Silicon Dioxide 
    
@@ -359,14 +554,90 @@ When there is no voltage across the gate terminal, then the device does not cond
   
    </details>
    
+   
+   
    5. Isolation 
+   
+   <details><summary> Isolation </summary>
+   
+    * CMOS process need to be isolated from one another so that they do not have unexpected interactions.
+    * The transistor gate consists of a thin gate oxide layer.
+    * The thick oxide used to be formed by a process called Local Oxidation of Silicon (LOCOS).
+    * A problem with LOCOS-based processes is the transition between thick and thin oxide, which extended some distance laterally to form a so-called bird’s beak.
+    * Starting around the 0.35 µm node, shallow trench isolation (STI) was introduced to avoid the problems with LOCOS.
+    * STI forms insulating trenches of SiO2 surrounding the transistors (everywhere except the active area).
+    
+   </details>   
+   
+   
+   
    6. Gate Oxide Creation 
+   
+   <details><summary> Gate Oxide </summary>
+   
+    * The next step is to form the gate oxide for the transistors. As mentioned, this is most commonly in the form of silicon dioxide (SiO2).The transistor gate             consists of a thin gate oxide layer
+    * Relatively slowgrowth rates must be used to grow thin oxide films of precise thickness
+    * use lower temperature at atm pressure (800 to 900 degree) or use lower than 10 atm pressure or using composite oxide films
+
+   </details>   
+
+
+
    7. Gate and Source/Drain Formations
+   
+   <details><summary> Gate and Source/Drain Formations </summary>   
+   
+   * Grow gate oxide wherever transistors are required (area = source + drain + gate)
+   * Deposit polysilicon on chip
+   * Pattern polysilicon (both gates and interconnect)
+   * Etch exposed gate oxide—i.e., the area of gate oxide where transistors are required that was not covered by polysilicon
+   * Implant pMOS and nMOS source/drain regions
+   
+   </details> 
+   
+   
+   
    8. Contacts and Metallization 
+   
+   <details><summary> Contacts and Metallization </summary>   
+      
+   * Contact cuts are made to source, drain, and gate according to the contact mask. 
+   * Etch oxide where contact cuts are needed. These are holes etched in the dielectric after the source/drain formation.
+   * Older processes commonly use aluminum (Al) for wires, although newer ones offer copper (Cu) for lower resistance.
+   * Tungsten (W) can be used as a plug to fill the contact holes (to alleviate problems of aluminum not conforming to small contacts).,
+   * Sputter on aluminium metal over whole wafer
+   * pattern to remove excess metal, leaving wires
+   
+   </details> 
+   
+   
+   
    9. Passivation
+   
+   <details><summary> Passivation </summary>    
+   
+   * The final processing step is to add a protective glass layer called passivation or over glass that prevents the ingress of contaminants.
+   * Openings in the passivation layer, called overglass cuts, allow connection to I/O pads and test probe points if needed.
+
+   </details> 
+   
+   
+   
    10. Metrology
    
+   <details><summary> Metrology </summary>    
    
+   * Metrology is the science of measuring. Everything that is built in a semiconductor process has to be measured to give feedback to the manufacturing process.
+
+   </details> 
+   </details>    
+   
+   
+   
+   
+   
+    <details><summary> CMOS Fabrication Process </summary>  
+    
    * ##### **Fabrication Process**
    
    * **Step 1:** 
@@ -472,10 +743,13 @@ When there is no voltage across the gate terminal, then the device does not cond
 
    </details>
    </details>
-   
-<details><summary> Lab </summary>
 
-### **Lab**
+
+
+
+<details><summary> Assignment </summary>
+
+### **Assignment**
    
    <details><summary> Assignment - Fabrication Process and Layout </summary>
       
@@ -485,3 +759,265 @@ When there is no voltage across the gate terminal, then the device does not cond
 
    </details>
    </details>
+
+
+
+
+
+
+## **Day 3 - CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology**
+
+<details><summary> Theory </summary>
+
+### **Theory- CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology**
+
+
+
+   <details><summary> Disadvantage of the Submicron CMOS Process </summary> 
+   
+   #### **Disadvantage of the Submicron CMOS Process**
+   
+Isolation of the Transistors:
+
+• The use of reverse bias pn junctions to isolate transistors becomes impractical as the transistor sizes decrease
+
+   </details>     
+   
+   
+   
+   
+   <details><summary> Local Oxidation of Silicon (LOCOS) </summary> 
+   
+   <details><summary> Local Oxidation of Silicon (LOCOS) Isolation Process </summary>   
+   
+#### **Local Oxidation of Silicon (LOCOS) Isolation Process**
+   
+* **Local Oxidation of Silicon (LOCOS)** is the traditional isolation technique used in submicron processes.
+
+
+    1. A very thin layer silicon dioxide is grown on the wafer, called as pad oxide. Then a layer of silicon nitride is deposited which is used as an oxide barrier.
+    2. Then photolithography is done to pattern and etch the nitride and pad oxide where the thick oxide will be grown
+    3. Then by thermal oxidation process thick oxide is grown in the exposed area.
+    4. The last step is the removal of the silicon nitride layer.
+
+    ![image](https://user-images.githubusercontent.com/121996204/212211919-68cb4a83-8415-4f58-bc69-9eff855c76a5.png)
+
+   </details>   
+   
+   
+   <details><summary> Limitation and Advantages of Local Oxidation of Silicon (LOCOS) </summary>   
+   
+#### **Limitation and Advantages of Local Oxidation of Silicon (LOCOS)**
+   
+|      **Limitation**     |     **Advantages**      | 
+|  ---------------    | ------------------- | 
+|  the bird’s beak effect and the surface area which is lost to this encroachment  | simple process flow and high oxide quality because the whole LOCOS structure is thermally grown  |
+|  the restricted bird’s beak leads to undesirable stress effects in the transistor.    |    | 
+   </details>
+   </details>
+
+
+
+
+
+   <details><summary> Shallow trench isolation (STI) </summary> 
+   
+   <details><summary> Shallow trench isolation (STI) process </summary>    
+   
+#### **Shallow trench isolation (STI) **   
+
+* **Sallow Trench Isolation (STI)** isolation process is the preferred isolation process for deep-submicron process because it allows closer spacing of transistors by eliminating the depletion region at the surface and it completely avoids Bird’s beak shape characteristics due to LOCOS process.
+
+
+   0. The STI process starts in the same way as the LOCOS process
+   1. Cover the wafer with pad oxide and silicon nitride.
+   2. First etch nitride and pad oxide. Next, an anisotropic etch is made in the silicon to a depth of 0.4 to 0.5 microns.
+   3. Grow a thin thermal oxide layer on the trench walls the so-called as liner oxide.But unlike with LOCOS, the thermal oxidation process is stopped after the             formation of a thin oxide layer.
+   4. A CVD dielectric film is used to fill the trench.
+   5. A chemical mechanical polishing (CMP) step is used to polish back the dielectric layer until the nitride is reached. The nitride acts like a CMP stop layer.
+   6. Densify the dielectric material at 900°C and strip the nitride and pad oxide
+
+![image](https://user-images.githubusercontent.com/121996204/212214645-d55bee6d-7da3-483a-99d9-3540a1612b16.png)
+   
+   
+   </details>
+   
+   
+   <details><summary> Disadvantage and Advantages of Shallow trench isolation (STI) </summary>   
+   
+#### **Disadvantage and Advantages of Shallow trench isolation (STI)**
+   
+|      **Disadvantage**     |     **Advantages**      | 
+|  ---------------    | ------------------- | 
+|  larger number of process steps  | With its zero oxide field encroachment STI is more suitable for the increased density requirements in a small area because it allows forming smaller isolation regions  |
+|      | advantage of STI is that it minimizes the heat cycle needed for n+ or p+ isolation compared to LOCOS | 
+
+
+   </details>
+   </details>
+
+
+
+   <details><summary> Deep Submicron (DSM) CMOS Fabrication Process </summary>   
+   
+#### **Deep Submicron (DSM) CMOS Fabrication Process**
+
+* **Fabrication Steps for a DSM CMOS Process**
+
+   <details><summary> 0. Starting Material </summary>
+
+* The substrate should be highly doped to act like a good conductor
+
+![image](https://user-images.githubusercontent.com/121996204/212584524-f9af3ffb-2f0c-4e23-adbb-904d2e1b3069.png)
+
+   </details>
+   
+   
+   
+   <details><summary> 1. p and n wells creation </summary>
+
+* These are the areas where the transistors will be fabricated - NMOS in the p-well and PMOS in the n-well.
+* Done by implantation followed by a deep diffusion
+
+![image](https://user-images.githubusercontent.com/121996204/212584592-f638490d-6429-47ab-93cc-612315525151.png)
+
+   </details>
+   
+   
+
+   <details><summary> 2. Shallow trench isolation </summary>
+
+* The shallow trench isolation (STI) electrically isolates one region/transistor from another
+
+![image](https://user-images.githubusercontent.com/121996204/212584797-2c864cd9-795f-4e6b-96e1-2ddc1e0fd30f.png)
+
+   </details>
+   
+
+
+   <details><summary> 3. Threshold shift and anti-punch through implants </summary>
+
+* The natural thresholds of the NMOS is about 0V and of the PMOS is about –1.2V. An p-implant is used to make the NMOS harder to invert and the PMOS easier resulting in threshold voltages balanced around zero volts.
+
+* Also an implant can be applied to create a higher-doped region beneath the channels to prevent punch-through from the drain depletion region extending to source depletion region.
+
+![image](https://user-images.githubusercontent.com/121996204/212585006-2f37f404-2946-4f3e-ab62-6b45f9133d4e.png)
+
+   </details>
+   
+   
+
+   <details><summary> 4. Thin oxide and gate polysilicon </summary>
+
+* A thin oxide is deposited followed by polysilicon. These layers are removed where they are not wanted.
+
+![image](https://user-images.githubusercontent.com/121996204/212585493-12cbb704-ccf3-406c-b04a-0299c68caecb.png)
+
+   </details>
+   
+
+
+   <details><summary> 5. Lightly doped drains and sources </summary>
+   
+* A lightly-doped implant is used to create a lightly-doped source and drain next to the channel of the MOSFETs.
+
+![image](https://user-images.githubusercontent.com/121996204/212585745-4b5f73b7-0ba2-4d8c-92e7-1f29db2a6975.png)
+
+   </details>
+   
+   
+
+   <details><summary> 6. Sidewall spacer </summary>
+   
+* A layer of dielectric is deposited on the surface and removed in such a way as to leave “sidewall spacers” next to the thin-oxide-polysilicon-polycide sandwich. 
+* These sidewall spacers will prevent the part of the source and drain next to the channel from becoming heavily doped
+
+![image](https://user-images.githubusercontent.com/121996204/212585966-62662724-f93b-48ab-8f31-40aff991b143.png)
+
+   </details>   
+   
+   
+
+   <details><summary> 7. Implantation of the Heavily Doped Sources and Drains </summary>
+   
+* Note that not only does this step provide the completed sources and drains but allows for ohmic contact into the wells and substrate.
+
+![image](https://user-images.githubusercontent.com/121996204/212586151-51016054-994e-4d57-80dc-9487592c8678.png)
+
+   </details>   
+   
+   
+
+   <details><summary> 8. Siliciding (Salicide and Polycide) </summary>
+   
+* This step reduces the resistance of the bulk diffusions and polysilicon and forms an ohmic contact with material on which it is deposited.
+* Salicide = Self-aligned silicide
+
+![image](https://user-images.githubusercontent.com/121996204/212586341-d0bb3af8-7876-4db9-aad0-e31fedea4278.png)
+
+   </details>   
+   
+   
+
+   <details><summary> 9. Intermediate Oxide Layer </summary>
+   
+* An oxide layer is used to cover the transistors and to planarize the surface. 
+
+![image](https://user-images.githubusercontent.com/121996204/212586553-c0f0217d-3129-4c96-a089-fd99372ca013.png)
+
+   </details>   
+   
+   
+
+   <details><summary> 10. Higher level metals, tungsten plugs/vias, and oxide </summary>
+   
+* Tungsten plugs are built through the lower intermediate oxide layer to provide contact between the devices, wells and substrate to the first-level metal.
+
+![image](https://user-images.githubusercontent.com/121996204/212586740-cdef5755-fbd5-46f2-9eeb-7a3b56ac361f.png)
+
+   </details>   
+   
+   
+
+   <details><summary> 11. Top level metal, vias and protective oxide </summary>
+   
+* The previous step is repeated for the second-level metal.
+* After multiple levels of metal are applied, the fabrication is completed with a thicker top level metal and a protective layer to hermetically seal the circuit from   the environment.
+* metal is used for the upper level metal vias. The chip is electrically connected by removing the protective layer over large bonding pads
+
+![image](https://user-images.githubusercontent.com/121996204/212586959-18bc6be8-9c63-4e09-9da6-2eac55a2b938.png)
+
+   </details>
+   </details>
+
+
+
+
+   <details><summary> Disadvantage and Advantages of Ultra Deep Submicron (UDSM) CMOS Technology </summary>   
+   
+#### **Disadvantage and Advantages of Ultra Deep Submicron (UDSM) CMOS Technology**
+   
+|      **Disadvantage**     |     **Advantages**      | 
+|  ---------------    | ------------------- | 
+|      Reduction in power supply resulting in reduced headroom     |     Improved Ion/Ioff | 
+|      Reduced small signal intrinsic gain    |     Reduced gate capacitance     | 
+|      Increased nonlinearity     |     Higher drive current capability      | 
+|      Increased noise and poorer matching     |     Reduced interconnect density      |
+|      Gate leakage currents     |     Reduction of active power      | 
+|           |     More levels of metal      | 
+|           |     Higher cutoff frequency      | 
+|           |     Higher capacitance density      | 
+|           |     Reduced junction capacitance per transconductance      | 
+|           |     More speed     | 
+
+
+   </details>
+
+
+
+## **Day 4 - Metal-Oxide-Semiconductor Structure**
+<details><summary> Notes </summary>
+
+### **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
+   
+   <details><summary> VLSI </summary> 
