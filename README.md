@@ -1,9 +1,9 @@
 # **Intel-CKT-Training 2023** 
 ## Table of contents
-+ **[ Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon ](https://github.com/nuralia1/Intel-Training#day-1)**
-+ **[ Day 2 - Analog VLSI Design Flow and CMOS Fabrication Process ](https://github.com/nuralia1/Intel-Training#day-2)**
-+ **[ Day 3 - CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology ](https://github.com/nuralia1/Intel-Training#day-3)**
-+ **[ Day 4 - Metal-Oxide-Semiconductor Structure ](https://github.com/nuralia1/Intel-Training#day-4)**
++ **[ Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon ](https://github.com/nuralia1/Intel-Training#day-1---fundamentals-of-vlsi-design-and-overview-of-sand-to-silicon)**
++ **[ Day 2 - Analog VLSI Design Flow and CMOS Fabrication Process ](https://github.com/nuralia1/Intel-Training#day-2---analog-vlsi-design-flow-and-cmos-fabrication-process)**
++ **[ Day 3 - CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology ](https://github.com/nuralia1/Intel-Training#day-3---cmos-fabrication-process-in-deepsubmicron-dsm-and-ultra-deepsubmicron-udsm-technology)**
++ **[ Day 4 - Metal-Oxide-Semiconductor Structure ](https://github.com/nuralia1/Intel-Training#day-4---metal-oxide-semiconductor-structure)**
 
 
 
