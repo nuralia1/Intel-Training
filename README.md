@@ -538,14 +538,14 @@ When there is no voltage across the gate terminal, then the device does not cond
    
    <details><summary> Silicon Dioxide </summary>
    
-  * Wet Oxidation : when the oxidizing atmosphere contains water vapor.
+  * **Wet Oxidation**: when the oxidizing atmosphere contains water vapor.
     * for thick oxide (field oxide)
     * Fast growth rate (140 - 250 A/h)
     * The temperature is usually between 900 °C and 1000 °C
     * use for masking oxide and the LOCOS oxide
     * Higher defect
     
-  * Dry Oxidation: when the oxidizing atmosphere is pure oxygen
+  * **Dry Oxidation**: when the oxidizing atmosphere is pure oxygen
     * best for thin oxide (less than 1000 A)
     * Slow growth rate (140 - 250 A/h)
     * Temperatures are in the region of 1200 °C to achieve an acceptable growth rate
@@ -560,12 +560,12 @@ When there is no voltage across the gate terminal, then the device does not cond
    
    <details><summary> Isolation </summary>
    
-    * CMOS process need to be isolated from one another so that they do not have unexpected interactions.
-    * The transistor gate consists of a thin gate oxide layer.
-    * The thick oxide used to be formed by a process called Local Oxidation of Silicon (LOCOS).
-    * A problem with LOCOS-based processes is the transition between thick and thin oxide, which extended some distance laterally to form a so-called bird’s beak.
-    * Starting around the 0.35 µm node, shallow trench isolation (STI) was introduced to avoid the problems with LOCOS.
-    * STI forms insulating trenches of SiO2 surrounding the transistors (everywhere except the active area).
+   * CMOS process need to be isolated from one another so that they do not have unexpected interactions.
+   * The transistor gate consists of a thin gate oxide layer.
+   * The thick oxide used to be formed by a process called Local Oxidation of Silicon (LOCOS).
+   * A problem with LOCOS-based processes is the transition between thick and thin oxide, which extended some distance laterally to form a so-called bird’s beak.
+   * Starting around the 0.35 µm node, shallow trench isolation (STI) was introduced to avoid the problems with LOCOS.
+   * STI forms insulating trenches of SiO2 surrounding the transistors (everywhere except the active area)
     
    </details>   
    
@@ -575,9 +575,9 @@ When there is no voltage across the gate terminal, then the device does not cond
    
    <details><summary> Gate Oxide </summary>
    
-    * The next step is to form the gate oxide for the transistors. As mentioned, this is most commonly in the form of silicon dioxide (SiO2).The transistor gate             consists of a thin gate oxide layer
-    * Relatively slowgrowth rates must be used to grow thin oxide films of precise thickness
-    * use lower temperature at atm pressure (800 to 900 degree) or use lower than 10 atm pressure or using composite oxide films
+   * The next step is to form the gate oxide for the transistors. As mentioned, this is most commonly in the form of silicon dioxide (SiO2).The transistor gate             consists of a thin gate oxide layer
+   * Relatively slowgrowth rates must be used to grow thin oxide films of precise thickness
+   * use lower temperature at atm pressure (800 to 900 degree) or use lower than 10 atm pressure or using composite oxide films
 
    </details>   
 
@@ -636,55 +636,64 @@ When there is no voltage across the gate terminal, then the device does not cond
    
    
    
-    <details><summary> CMOS Fabrication Process </summary>  
+   <details><summary> CMOS Fabrication Process </summary>  
     
-   * ##### **Fabrication Process**
+* ##### **Fabrication Process**
    
    * **Step 1:** 
      * For N- well, a P-type silicon substrate is selected as a base for fabrication.
        
       ![image](https://user-images.githubusercontent.com/121996204/211259019-24347079-e183-41b3-9321-443baed27672.png)
-   
+
+	   
    * **Step 2 – Thermal Oxidation:** 
-     * The selective diffusion of n-type impurities is accomplished using SiO2 as a barrier which protects portions of the wafer against contamination of the                  substrate. SiO2 is laid out by oxidation process done exposing the substrate to high-quality oxygen and hydrogen in an oxidation chamber at approximately 10000c
+     * The selective diffusion of n-type impurities is accomplished using SiO2 as a barrier which protects portions of the wafer against contamination of the                substrate. SiO2 is laid out by oxidation process done exposing the substrate to high-quality oxygen and hydrogen in an oxidation chamber at approximately              10000c
      
       ![image](https://user-images.githubusercontent.com/121996204/211259036-30841c51-ed5e-41b9-bd5d-4ce916382263.png)
-       
+    
+	   
    * **Step 3 – Growing of Photoresist:**
-      * At this stage to permit the selective etching, the SiO2 layer is subjected to the photolithography process. In this process, the wafer is coated with a uniform         film of a photosensitive emulsion.
+      * At this stage to permit the selective etching, the SiO2 layer is subjected to the photolithography process. In this process, the wafer is coated with a               uniform film of a photosensitive emulsion.
       
       ![image](https://user-images.githubusercontent.com/121996204/211259048-8b65aa6c-ab71-44f9-bbb7-7ca912fcf179.png)
       
+	   
    * **Step 4 – Masking:** 
-      * This step is the continuation of the photolithography process. In this step, a desired pattern of openness is made using a stencil. This stencil is used as a           mask over the photoresist. The substrate is now exposed to UV rays the photoresist present under the exposed regions of mask gets polymerized.
+      * This step is the continuation of the photolithography process. In this step, a desired pattern of openness is made using a stencil. This stencil is used as a         mask over the photoresist. The substrate is now exposed to UV rays the photoresist present under the exposed regions of mask gets polymerized.
       
       ![image](https://user-images.githubusercontent.com/121996204/211259056-d54aab98-1a8d-4c1f-8f72-62b1c210b1ec.png)
       
+	   
    * **Step 5 – Removal of Unexposed Photoresist:** 
       * The mask is removed and the unexposed region of photoresist is dissolved by developing wafer using a chemical such as Trichloroethylene
       
       ![image](https://user-images.githubusercontent.com/121996204/211259067-1a8d0d83-65cf-4cf1-bf6d-66ff3d926ca8.png)
       
+	   
    * **Step 6 – Etching:** 
       * The wafer is immersed in an etching solution of hydrofluoric acid, which removes the oxide from the areas through which dopants are to be diffused
       
       ![image](https://user-images.githubusercontent.com/121996204/211259077-ed2fee4b-88c4-4f73-90fe-3a1780fac83d.png)
       
+	   
    * **Step 7 – Removal of Whole Photoresist Layer:** 
       * During the etching process, those portions of SiO2 which are protected by the photoresist layer are not affected. The photoresist mask is now stripped off wit         chemical solvent (hot H2SO4)
       
       ![image](https://user-images.githubusercontent.com/121996204/211259089-58d5dcdb-b4e0-407d-aa0b-1a6e4b71f720.png)
       
+	   
    * **Step 8 – Formation of N-well:** 
       * The n-type impurities are diffused into the p-type substrate through the exposed region thus forming an N- well
       
       ![image](https://user-images.githubusercontent.com/121996204/211259104-a1cd568b-a55d-4454-9331-f48b54cf4f8c.png)
       
+	   
    * **Step 9 – Removal of SiO2:** 
       * The layer of SiO2 is now removed by using hydrofluoric acid
       
       ![image](https://user-images.githubusercontent.com/121996204/211259112-80d6c5b9-a3cd-4f32-81b7-f7d53add9c30.png)
       
+	   
    * **Step 10 – Deposition of Polysilicon:** 
       * The misalignment of the gate of a CMOS transistor would lead to the unwanted capacitance which could harm circuit. So to prevent this “Self-aligned gate               process” is preferred where gate regions are formed before the formation of source and drain using ion implantation.
 
@@ -694,16 +703,19 @@ When there is no voltage across the gate terminal, then the device does not cond
       for formation of source and drain. Polysilicon is deposited by using Chemical Deposition Process over a thin layer of gate oxide. This thin gate oxide under the 
       Polysilicon layer prevents further doping under the gate region.
 
+	   
    * **Step 11 – Formation of Gate Region:** 
       * Except the two regions required for formation of the gate for NMOS and PMOS transistors the remaining portion of Polysilicon is stripped off.
 
       ![image](https://user-images.githubusercontent.com/121996204/211259481-b832190e-f9bf-41d4-8923-09fa4ec0077e.png)
       
+	   
    * **Step 12 – Oxidation Process:** 
       * An oxidation layer is deposited over the wafer which acts as a shield for further diffusion and metallization processes.
 
       ![image](https://user-images.githubusercontent.com/121996204/211259493-d71bca98-498a-4202-9bf2-eac899ce408d.png)
       
+	   
    * **Step 13 – Masking and Diffusion:** 
       * For making regions for diffusion of n-type impurities using masking process small gaps are made
 
@@ -713,29 +725,35 @@ When there is no voltage across the gate terminal, then the device does not cond
 
       ![image](https://user-images.githubusercontent.com/121996204/211259522-50d20292-dad1-4594-b6d8-9949bf06ff6c.png)
       
+	   
    * **Step 14 – Removal of Oxide:** 
       The oxide layer is stripped off
 
       ![image](https://user-images.githubusercontent.com/121996204/211259537-24780a99-1c86-4bbb-a64d-196ef2f06f74.png)
       
+	   
    * **Step 15 – P-type Diffusion:** 
       Similar to the n-type diffusion for forming the terminals of PMOS p-type diffusion are carried out
 
       ![image](https://user-images.githubusercontent.com/121996204/211259544-f5384f77-efb8-4661-98da-28e4589e769e.png)
       
+	   
    * **Step 16 – Laying of Thick Field oxide:** 
       Before forming the metal terminals a thick field oxide is laid out to form a protective layer for the regions of the wafer where no terminals are required
 
       ![image](https://user-images.githubusercontent.com/121996204/211259549-03adfb06-85c8-44c0-bafe-345404245dbc.png)
       
+	   
    * **Step 17 – Metallization:** 
       This step is used for the formation of metal terminals which can provide interconnections. Aluminum is spread on the whole wafer
 
       ![image](https://user-images.githubusercontent.com/121996204/211259559-c300ea4b-61fb-42f1-bf9b-e77436dd4e3f.png)
       
+	   
    * **Step 18 – Removal of Excess Metal:** 
       The excess metal is removed from the wafer.
 
+	   
    * **Step 19 – Formation of Terminals:** 
       In the gaps formed after removal of excess metal terminals are formed for the interconnections.
 
@@ -765,6 +783,7 @@ When there is no voltage across the gate terminal, then the device does not cond
 
 
 
+
 ## **Day 3 - CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology**
 
 <details><summary> Theory </summary>
@@ -773,14 +792,46 @@ When there is no voltage across the gate terminal, then the device does not cond
 
 
 
-   <details><summary> Disadvantage of the Submicron CMOS Process </summary> 
+   <details><summary> Deep Submicron CMOS Process </summary> 
+	   
+   1. #### **Deep Submicron CMOS Process**
+	   
+   * DSM technology typically has a minimum channel length between 0.35µm and 0.1µm
+   * DSM technology addresses the problem of excessive depletion region widths in junction isolation techniques by using shallow trench isolation
+   * DSM technology may have from 4 to 8 levels of metal
+   * Lightly doped drains and sources are a key aspect of DSM technology
+	   
+	  
+	   
+   2. #### **Disadvantage of the Deep Submicron CMOS Process**
    
-   #### **Disadvantage of the Submicron CMOS Process**
-   
-Isolation of the Transistors:
+   * Isolation of the Transistors:
 
-• The use of reverse bias pn junctions to isolate transistors becomes impractical as the transistor sizes decrease
+     * The use of reverse bias pn junctions to isolate transistors becomes impractical as the transistor sizes decrease
 
+
+	   
+   3. #### **Illustration of a Deep Submicron (DSM) CMOS Technology**
+	   
+   * In addition to the NMOS and PMOS transistor, the DSM technology provides
+	   
+     * Different types of resistors in Deep Submicron (DSM) CMOS Technology:
+	   
+       * Diffused and/or implanted resistors
+       * Well resistors
+       * Poly resistors
+       * Metal Resistors
+	   
+     ![image](https://user-images.githubusercontent.com/121996204/212593837-c4388ff6-6e95-48f6-9c4d-25393cac95d2.png)
+
+     * Different types of capacitor in Deep Submicron (DSM) CMOS Technology:
+	   
+       * Metal-Insulator-Metal (MIM) Capacitor
+       * Polysilicon-Polysilicon Capacitor	
+	   
+      ![image](https://user-images.githubusercontent.com/121996204/212594820-c14d7cd5-bec1-410a-aa2e-c5d6bfc07fb1.png)
+	   
+	   
    </details>     
    
    
@@ -805,6 +856,7 @@ Isolation of the Transistors:
    </details>   
    
    
+	   
    <details><summary> Limitation and Advantages of Local Oxidation of Silicon (LOCOS) </summary>   
    
 #### **Limitation and Advantages of Local Oxidation of Silicon (LOCOS)**
@@ -813,6 +865,7 @@ Isolation of the Transistors:
 |  ---------------    | ------------------- | 
 |  the bird’s beak effect and the surface area which is lost to this encroachment  | simple process flow and high oxide quality because the whole LOCOS structure is thermally grown  |
 |  the restricted bird’s beak leads to undesirable stress effects in the transistor.    |    | 
+	   
    </details>
    </details>
 
@@ -824,7 +877,7 @@ Isolation of the Transistors:
    
    <details><summary> Shallow trench isolation (STI) process </summary>    
    
-#### **Shallow trench isolation (STI) **   
+   #### **Shallow trench isolation (STI)**   
 
 * **Sallow Trench Isolation (STI)** isolation process is the preferred isolation process for deep-submicron process because it allows closer spacing of transistors by eliminating the depletion region at the surface and it completely avoids Bird’s beak shape characteristics due to LOCOS process.
 
@@ -866,9 +919,9 @@ Isolation of the Transistors:
 
    <details><summary> 0. Starting Material </summary>
 
-* The substrate should be highly doped to act like a good conductor
+   * The substrate should be highly doped to act like a good conductor
 
-![image](https://user-images.githubusercontent.com/121996204/212584524-f9af3ffb-2f0c-4e23-adbb-904d2e1b3069.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212584524-f9af3ffb-2f0c-4e23-adbb-904d2e1b3069.png)
 
    </details>
    
@@ -876,10 +929,10 @@ Isolation of the Transistors:
    
    <details><summary> 1. p and n wells creation </summary>
 
-* These are the areas where the transistors will be fabricated - NMOS in the p-well and PMOS in the n-well.
-* Done by implantation followed by a deep diffusion
+   * These are the areas where the transistors will be fabricated - NMOS in the p-well and PMOS in the n-well.
+   * Done by implantation followed by a deep diffusion
 
-![image](https://user-images.githubusercontent.com/121996204/212584592-f638490d-6429-47ab-93cc-612315525151.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212584592-f638490d-6429-47ab-93cc-612315525151.png)
 
    </details>
    
@@ -887,21 +940,21 @@ Isolation of the Transistors:
 
    <details><summary> 2. Shallow trench isolation </summary>
 
-* The shallow trench isolation (STI) electrically isolates one region/transistor from another
+   * The shallow trench isolation (STI) electrically isolates one region/transistor from another
 
-![image](https://user-images.githubusercontent.com/121996204/212584797-2c864cd9-795f-4e6b-96e1-2ddc1e0fd30f.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212584797-2c864cd9-795f-4e6b-96e1-2ddc1e0fd30f.png)
 
    </details>
    
 
 
    <details><summary> 3. Threshold shift and anti-punch through implants </summary>
+ 
+   * The natural thresholds of the NMOS is about 0V and of the PMOS is about –1.2V. An p-implant is used to make the NMOS harder to invert and the PMOS easier              resulting in threshold voltages balanced around zero volts.
 
-* The natural thresholds of the NMOS is about 0V and of the PMOS is about –1.2V. An p-implant is used to make the NMOS harder to invert and the PMOS easier resulting in threshold voltages balanced around zero volts.
+   * Also an implant can be applied to create a higher-doped region beneath the channels to prevent punch-through from the drain depletion region extending to source      depletion region.
 
-* Also an implant can be applied to create a higher-doped region beneath the channels to prevent punch-through from the drain depletion region extending to source depletion region.
-
-![image](https://user-images.githubusercontent.com/121996204/212585006-2f37f404-2946-4f3e-ab62-6b45f9133d4e.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212585006-2f37f404-2946-4f3e-ab62-6b45f9133d4e.png)
 
    </details>
    
@@ -909,9 +962,9 @@ Isolation of the Transistors:
 
    <details><summary> 4. Thin oxide and gate polysilicon </summary>
 
-* A thin oxide is deposited followed by polysilicon. These layers are removed where they are not wanted.
+   * A thin oxide is deposited followed by polysilicon. These layers are removed where they are not wanted.
 
-![image](https://user-images.githubusercontent.com/121996204/212585493-12cbb704-ccf3-406c-b04a-0299c68caecb.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212585493-12cbb704-ccf3-406c-b04a-0299c68caecb.png)
 
    </details>
    
@@ -919,9 +972,9 @@ Isolation of the Transistors:
 
    <details><summary> 5. Lightly doped drains and sources </summary>
    
-* A lightly-doped implant is used to create a lightly-doped source and drain next to the channel of the MOSFETs.
+   * A lightly-doped implant is used to create a lightly-doped source and drain next to the channel of the MOSFETs.
 
-![image](https://user-images.githubusercontent.com/121996204/212585745-4b5f73b7-0ba2-4d8c-92e7-1f29db2a6975.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212585745-4b5f73b7-0ba2-4d8c-92e7-1f29db2a6975.png)
 
    </details>
    
@@ -929,10 +982,10 @@ Isolation of the Transistors:
 
    <details><summary> 6. Sidewall spacer </summary>
    
-* A layer of dielectric is deposited on the surface and removed in such a way as to leave “sidewall spacers” next to the thin-oxide-polysilicon-polycide sandwich. 
-* These sidewall spacers will prevent the part of the source and drain next to the channel from becoming heavily doped
+   * A layer of dielectric is deposited on the surface and removed in such a way as to leave “sidewall spacers” next to the thin-oxide-polysilicon-polycide sandwich. 
+   * These sidewall spacers will prevent the part of the source and drain next to the channel from becoming heavily doped
 
-![image](https://user-images.githubusercontent.com/121996204/212585966-62662724-f93b-48ab-8f31-40aff991b143.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212585966-62662724-f93b-48ab-8f31-40aff991b143.png)
 
    </details>   
    
@@ -940,9 +993,9 @@ Isolation of the Transistors:
 
    <details><summary> 7. Implantation of the Heavily Doped Sources and Drains </summary>
    
-* Note that not only does this step provide the completed sources and drains but allows for ohmic contact into the wells and substrate.
+   * Note that not only does this step provide the completed sources and drains but allows for ohmic contact into the wells and substrate.
 
-![image](https://user-images.githubusercontent.com/121996204/212586151-51016054-994e-4d57-80dc-9487592c8678.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212586151-51016054-994e-4d57-80dc-9487592c8678.png)
 
    </details>   
    
@@ -950,10 +1003,10 @@ Isolation of the Transistors:
 
    <details><summary> 8. Siliciding (Salicide and Polycide) </summary>
    
-* This step reduces the resistance of the bulk diffusions and polysilicon and forms an ohmic contact with material on which it is deposited.
-* Salicide = Self-aligned silicide
+   * This step reduces the resistance of the bulk diffusions and polysilicon and forms an ohmic contact with material on which it is deposited.
+   * Salicide = Self-aligned silicide
 
-![image](https://user-images.githubusercontent.com/121996204/212586341-d0bb3af8-7876-4db9-aad0-e31fedea4278.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212586341-d0bb3af8-7876-4db9-aad0-e31fedea4278.png)
 
    </details>   
    
@@ -961,9 +1014,9 @@ Isolation of the Transistors:
 
    <details><summary> 9. Intermediate Oxide Layer </summary>
    
-* An oxide layer is used to cover the transistors and to planarize the surface. 
+   * An oxide layer is used to cover the transistors and to planarize the surface. 
 
-![image](https://user-images.githubusercontent.com/121996204/212586553-c0f0217d-3129-4c96-a089-fd99372ca013.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212586553-c0f0217d-3129-4c96-a089-fd99372ca013.png)
 
    </details>   
    
@@ -971,9 +1024,9 @@ Isolation of the Transistors:
 
    <details><summary> 10. Higher level metals, tungsten plugs/vias, and oxide </summary>
    
-* Tungsten plugs are built through the lower intermediate oxide layer to provide contact between the devices, wells and substrate to the first-level metal.
+   * Tungsten plugs are built through the lower intermediate oxide layer to provide contact between the devices, wells and substrate to the first-level metal.
 
-![image](https://user-images.githubusercontent.com/121996204/212586740-cdef5755-fbd5-46f2-9eeb-7a3b56ac361f.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212586740-cdef5755-fbd5-46f2-9eeb-7a3b56ac361f.png)
 
    </details>   
    
@@ -981,21 +1034,51 @@ Isolation of the Transistors:
 
    <details><summary> 11. Top level metal, vias and protective oxide </summary>
    
-* The previous step is repeated for the second-level metal.
-* After multiple levels of metal are applied, the fabrication is completed with a thicker top level metal and a protective layer to hermetically seal the circuit from   the environment.
-* metal is used for the upper level metal vias. The chip is electrically connected by removing the protective layer over large bonding pads
+   * The previous step is repeated for the second-level metal.
+   * After multiple levels of metal are applied, the fabrication is completed with a thicker top level metal and a protective layer to hermetically seal the circuit        from the environment.
+   * metal is used for the upper level metal vias. The chip is electrically connected by removing the protective layer over large bonding pads
 
-![image](https://user-images.githubusercontent.com/121996204/212586959-18bc6be8-9c63-4e09-9da6-2eac55a2b938.png)
+   ![image](https://user-images.githubusercontent.com/121996204/212586959-18bc6be8-9c63-4e09-9da6-2eac55a2b938.png)
 
    </details>
+	  
+	  
    </details>
+	
 
 
 
-
+	
+   <details><summary> Ultra Deep Submicron (UDSM) CMOS Technology </summary>
+	   
+   <details><summary> Ultra Deep Submicron (UDSM) CMOS Technology Features </summary>	   
+	   
+#### **Ultra Deep Submicron (UDSM) CMOS Technology Features**
+	   
+* Increased transconductance and frequency capability
+* Low power supply voltages
+* Reduced parasitics
+* Gate leakage causes challenges for analog applications of UDSM technology
+	   
+   * Can no longer use the MOSFET for capacitance
+   * Conflict between matching and gate leakage
+	   
+* Other issues
+	   
+   * Noise
+   * Zero temperature coefficient behavior
+	   
+* UDSM technology typically has a minimum channel length less than 0.1µm
+* UDSM transistors utilize enhanced channel strains to increase drive capability and reduce off currents
+	   
+	   
+   </details>
+	   
+	   
+	   
    <details><summary> Disadvantage and Advantages of Ultra Deep Submicron (UDSM) CMOS Technology </summary>   
    
-#### **Disadvantage and Advantages of Ultra Deep Submicron (UDSM) CMOS Technology**
+   #### **Disadvantage and Advantages of Ultra Deep Submicron (UDSM) CMOS Technology**
    
 |      **Disadvantage**     |     **Advantages**      | 
 |  ---------------    | ------------------- | 
@@ -1010,9 +1093,32 @@ Isolation of the Transistors:
 |           |     Reduced junction capacitance per transconductance      | 
 |           |     More speed     | 
 
+	   
+	   
+   #### **What is the Gate Leakage Problem**
+	   
+* Gate current occurs in thin oxide devices due to direct tunneling through the thin oxide
+
 
    </details>
+   </details>
+   </details>	
+	
 
+	
+	
+<details><summary> Assignment </summary>
+
+### **Assignment**
+   
+   <details><summary> Assignment - DSM and UDSM Fabrication Process </summary>
+      
+   #### **Assignment - DSM and UDSM Fabrication Process**
+   
+
+   </details>
+   </details>	
+	
 
 
 ## **Day 4 - Metal-Oxide-Semiconductor Structure**
@@ -1020,4 +1126,8 @@ Isolation of the Transistors:
 
 ### **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
    
-   <details><summary> VLSI </summary> 
+   <details><summary>  </summary> 
+	   
+   </details>
+   </details>
+	
