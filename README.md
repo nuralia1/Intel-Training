@@ -1119,16 +1119,69 @@ When there is no voltage across the gate terminal, then the device does not cond
 
    </details>
    </details>	
-	
+
+
+
+
+
+
+
 
 
 ## **Day 4 - Metal-Oxide-Semiconductor Structure**
-<details><summary> Notes </summary>
 
-### **Notes- Fundamentals of VLSI Design and overview of Sand-to-Silicon**
+<details><summary> Theory </summary>
+
+### **Theory- Metal-Oxide-Semiconductor Structure**
+
+
+
+   <details><summary>  MOS Capacitor </summary> 
+	   
+* **Metal-Oxide-Semiconductor (MOS) Junction**
+
+1. MOS junction simply a capacitor
+2. No current-voltage relationship, only capacitor-voltage relationship 
+
+	   
+* Metal - used polysilicon that is used as a gate
+* Insulator - that is used is silicon dioxide (SiO2) which we call as Oxide
+* Semiconductor - that is used is silicon 
+* M - O - S   =  Metal - Oxide - Semiconductor
+* Also call as MOSCAP
+  * MOS = Metal - Oxide - Semiconductor
+  * CAP = because the oxide which is insulator is sandwich between a conductor and semiconductor which will act as capacitor
+
+![image](https://user-images.githubusercontent.com/121996204/214475556-06dd6bcd-672f-4139-beeb-c95558ba1065.png)
    
-   <details><summary>  </summary> 
+   </details>
+
+	
+	
+	
+	
+   <details><summary> Ideal MOS Capacitor </summary> 
+	   
+   #### **Ideal MOS Capacitor**	
+	   
+  * The work function of metal and semiconductor are the same. 
+  * Oxide has no charges inside
+  * Oxide has infinite resisitivity which mean there cannot be current flowing through the oxide when we do the operation
+
+	   
+	   
+   <details><summary> Accumulation </summary> 	   
+   <details><summary> Depletion </summary> 	 	   
+   <details><summary> Inversion </summary> 	   
+   <details><summary> Threshold voltage and Flat-band </summary> 	   
+   <details><summary> C-V Characteristic </summary> 
+
+	   
+   </details>
+	   
+   <details><summary> Non-Ideal MOS Capacitor </summary> 
 	   
    </details>
    </details>
 	
+
