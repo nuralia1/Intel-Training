@@ -1144,15 +1144,19 @@ When there is no voltage across the gate terminal, then the device does not cond
 2. No current-voltage relationship, only capacitor-voltage relationship 
 
 	   
-* Metal - used polysilicon that is used as a gate
-* Insulator - that is used is silicon dioxide (SiO2) which we call as Oxide
-* Semiconductor - that is used is silicon 
-* M - O - S   =  Metal - Oxide - Semiconductor
+| Metal  |used polysilicon that is used as a gate| 	   
+|  ---------------    | ------------------- | 	   
+|  **Insulator**  | **that is used is silicon dioxide (SiO2) which we call as Oxide** | 
+|  **Semiconductor**  | **that is used is silicon** | 
+	   
+	   
+	  
 * Also call as MOSCAP
-  * MOS = Metal - Oxide - Semiconductor
+  * M - O - S  = Metal - Oxide - Semiconductor
   * CAP = because the oxide which is insulator is sandwich between a conductor and semiconductor which will act as capacitor
 
 ![image](https://user-images.githubusercontent.com/121996204/214475556-06dd6bcd-672f-4139-beeb-c95558ba1065.png)
+![image](https://user-images.githubusercontent.com/121996204/216503309-8b4b3b6d-ab6e-40b5-9280-015231022fcb.png)
    
    </details>
 
@@ -1162,18 +1166,70 @@ When there is no voltage across the gate terminal, then the device does not cond
 	
    <details><summary> Ideal MOS Capacitor </summary> 
 	   
-   #### **Ideal MOS Capacitor**	
+   #### **Ideal MOS Junction or Capacitor**	
 	   
-  * The work function of metal and semiconductor are the same. 
-  * Oxide has no charges inside
-  * Oxide has infinite resisitivity which mean there cannot be current flowing through the oxide when we do the operation
+|      **Ideal**     | 
+|  ---------------    | 
+|  the work function of metal and semiconductor are the same = 0  |  
+|  Oxide has no charges inside or the oxide is free of charges  |  
+|  the substrate is uniformly doped  |  
+|  Oxide has infinite resisitivity which mean there cannot be current flowing through the oxide when we do the operation  |  
+
+![image](https://user-images.githubusercontent.com/121996204/216503465-a74f53a2-d26b-46e4-867b-d073ba3b24dc.png)
 
 	   
+* **Energy band diagram of Ideal MOS Junction or Capacitor**
 	   
-   <details><summary> Accumulation </summary> 	   
-   <details><summary> Depletion </summary> 	 	   
-   <details><summary> Inversion </summary> 	   
-   <details><summary> Threshold voltage and Flat-band </summary> 	   
+![image](https://user-images.githubusercontent.com/121996204/216505127-eaa58c38-f782-4267-864a-9dd73b8ebb4e.png)
+	   
+   </details>
+	
+   <details><summary> Priciple of operation </summary> 
+	   
+* The four modes of operation of an MOS structure:
+1. Case1: (V < 0) = Accumulation
+2. Case2: (V > 0) = Depletion and weak inversion
+3. Case3: (V ≥ VT) = Strong inversion
+4. Flat-band and Threshold voltage	   
+	   
+   <details><summary> Accumulation </summary> 
+	   
+   **Accumulation Mode (V < 0):**
+	
+   * below the flatband voltage, VFB is called as Accumulation mode of operation			 
+   * Pile of majority carrier at the interface
+   * Charge at the surface directly proportional to voltage	
+   * Accumulation occurs typically for -ve voltages where the -ve charge on the gate attracts holes from the substrate to the oxide-semiconductor interface.
+		 
+![image](https://user-images.githubusercontent.com/121996204/216512360-9a2be14a-11c3-4381-b954-a654736e486e.png)
+
+				 
+				 
+   </details>
+	   
+   <details><summary> Depletion </summary> 
+
+   * between the flatband voltage and the threshold voltage, VT is called as Depletion mode of operation 
+   * Depletion occurs for positive voltages.
+   * The +ve charge on the gate pushes the mobile holes into the substrate.
+   * Therefore, the semiconductor is depleted of mobile carriers at the interface and a -ve charge, due to the ionized acceptor ions, is left in the space charge region	
+	   
+   </details>
+	   
+   <details><summary> Inversion </summary> 
+   
+   * larger than the threshold voltage is called as Inversion mode of operation   
+	   
+   </details>
+	   
+   <details><summary> Threshold voltage and Flat-band </summary> 
+	   
+   * Flatband conditions exist when no charge is present in the semiconductor so that the Si energy band is flat	   
+	   
+   </details>
+	   
+   </details>
+	   
    <details><summary> C-V Characteristic </summary> 
 
 	   
