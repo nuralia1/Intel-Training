@@ -1464,7 +1464,7 @@ When there is no voltage across the gate terminal, then the device does not cond
 	   
    <details><summary>  MOSFET Regions of Operation </summary> 	   
 	   
-* **MOSFET Regions of Operation**	   
+   * **MOSFET Regions of Operation**	   
 	   
    <details><summary> 1. MOSFET in cutoff mode of operation </summary> 
 
