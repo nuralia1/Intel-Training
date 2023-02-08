@@ -1240,4 +1240,20 @@ When there is no voltage across the gate terminal, then the device does not cond
    </details>
    </details>
 	
+<details><summary> Assignment </summary>
 
+	
+	
+	
+	
+### **Assignment**
+   
+   <details><summary> Assignment - Metal-Oxide-Semiconductor Structure </summary>
+      
+   #### **Assignment - Metal-Oxide-Semiconductor Structure**
+   
+[Day4-Assignment-Metal-Oxide-Semiconductor-Structure_nuraliah alwani rosli.pdf](https://github.com/nuralia1/Intel-Training/files/10680792/Day4-Assignment-Metal-Oxide-Semiconductor-Structure_nuraliah.alwani.rosli.pdf)
+
+
+   </details>
+   </details>
