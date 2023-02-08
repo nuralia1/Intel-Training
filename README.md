@@ -5,7 +5,7 @@
 + **[ Day 3 - CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology ](https://github.com/nuralia1/Intel-Training#day-3---cmos-fabrication-process-in-deepsubmicron-dsm-and-ultra-deepsubmicron-udsm-technology)**
 + **[ Day 4 - Metal-Oxide-Semiconductor Structure ](https://github.com/nuralia1/Intel-Training#day-4---metal-oxide-semiconductor-structure)**
 
-+ **[ Day 5 - Metal-Oxide-Semiconductor Field Effect Transistor ](https://github.com/nuralia1/Intel-Training/edit/main/README.md#day-5---metal-oxide-semiconductor---field-effect-transistor)**
++ **[ Day 5 - Metal-Oxide-Semiconductor Field Effect Transistor ](https://github.com/nuralia1/Intel-Training#day-5---metal-oxide-semiconductor---field-effect-transistor)**
 
 
 
