@@ -5,6 +5,7 @@
 + **[ Day 3 - CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology ](https://github.com/nuralia1/Intel-Training#day-3---cmos-fabrication-process-in-deepsubmicron-dsm-and-ultra-deepsubmicron-udsm-technology)**
 + **[ Day 4 - Metal-Oxide-Semiconductor Structure ](https://github.com/nuralia1/Intel-Training#day-4---metal-oxide-semiconductor-structure)**
 
++ **[ Day 5 - Metal-Oxide-Semiconductor Field Effect Transistor ](https://github.com/nuralia1/Intel-Training/edit/main/README.md#day-5---metal-oxide-semiconductor---field-effect-transistor)**
 
 
 
@@ -1141,21 +1142,20 @@ When there is no voltage across the gate terminal, then the device does not cond
 * **Metal-Oxide-Semiconductor (MOS) Junction**
 
 1. MOS junction simply a capacitor
+	   
 2. No current-voltage relationship, only capacitor-voltage relationship 
-
+  
+3. Also call as MOSCAP   
+   * M - O - S  = Metal - Oxide - Semiconductor
+   * CAP = because the oxide which is insulator is sandwich between a conductor and semiconductor which will act as capacitor
 	   
 | Metal  |used polysilicon that is used as a gate| 	   
 |  ---------------    | ------------------- | 	   
 |  **Insulator**  | **that is used is silicon dioxide (SiO2) which we call as Oxide** | 
 |  **Semiconductor**  | **that is used is silicon** | 
 	   
-	   
-	  
-* Also call as MOSCAP
-  * M - O - S  = Metal - Oxide - Semiconductor
-  * CAP = because the oxide which is insulator is sandwich between a conductor and semiconductor which will act as capacitor
-
 ![image](https://user-images.githubusercontent.com/121996204/214475556-06dd6bcd-672f-4139-beeb-c95558ba1065.png)
+	   
 ![image](https://user-images.githubusercontent.com/121996204/216503309-8b4b3b6d-ab6e-40b5-9280-015231022fcb.png)
    
    </details>
@@ -1183,15 +1183,18 @@ When there is no voltage across the gate terminal, then the device does not cond
 ![image](https://user-images.githubusercontent.com/121996204/216505127-eaa58c38-f782-4267-864a-9dd73b8ebb4e.png)
 	   
    </details>
+
 	
-   <details><summary> Priciple of operation </summary> 
+	
+	
+	
+	
+	
+   <details><summary> Principle of operation </summary> 
 	   
 * The four modes of operation of an MOS structure:
 1. Case1: (V < 0) = Accumulation
-2. Case2: (V > 0) = Depletion and weak inversion
-3. Case3: (V ≥ VT) = Strong inversion
-4. Flat-band and Threshold voltage	   
-	   
+		 
    <details><summary> Accumulation </summary> 
 	   
    **Accumulation Mode (V < 0):**
@@ -1200,52 +1203,127 @@ When there is no voltage across the gate terminal, then the device does not cond
    * Pile of majority carrier at the interface
    * Charge at the surface directly proportional to voltage	
    * Accumulation occurs typically for -ve voltages where the -ve charge on the gate attracts holes from the substrate to the oxide-semiconductor interface.
-		 
-![image](https://user-images.githubusercontent.com/121996204/216512360-9a2be14a-11c3-4381-b954-a654736e486e.png)
+		 				 
+   ![image](https://user-images.githubusercontent.com/121996204/216512360-9a2be14a-11c3-4381-b954-a654736e486e.png)
+				 
+   ![tempsnip](https://user-images.githubusercontent.com/121996204/217410452-350aaa69-0409-4250-81f4-8e6c56f099aa.png)
 
-				 
-				 
+				 				 
    </details>
+	   
+	   
+	   
+2. Case2: (V > 0) = Depletion and weak inversion
 	   
    <details><summary> Depletion </summary> 
 
+   **Depletion Mode (V > 0):**
+				 
    * between the flatband voltage and the threshold voltage, VT is called as Depletion mode of operation 
    * Depletion occurs for positive voltages.
    * The +ve charge on the gate pushes the mobile holes into the substrate.
-   * Therefore, the semiconductor is depleted of mobile carriers at the interface and a -ve charge, due to the ionized acceptor ions, is left in the space charge region	
+   * Therefore, the semiconductor is depleted of mobile carriers at the interface and a -ve charge, due to the ionized acceptor ions, is left in the space charge          region
+   * The voltage at which the surface carrier concentration is exactly equal to bulk carrier concentration, is called weak inversion voltage and from this point the        weak inversion started.
+   * Charge at the surface directly proportional to voltage
+   * The voltage at which the surface concentration exactly equal to the bulk concentration, that is called threshold voltage
+
+   ![image](https://user-images.githubusercontent.com/121996204/217412009-e2fb7ed3-238b-419c-ba7b-e4102af35dec.png)
+
+   ![image](https://user-images.githubusercontent.com/121996204/217412079-b84d098e-458c-4cb5-b996-33401410be57.png)
+
+   </details>	   
 	   
-   </details>
 	   
+	   
+3. Case3: (V ≥ VT) = Strong inversion
+
    <details><summary> Inversion </summary> 
    
+   **Inversion Mode (V ≥ VT):**
+	   
    * larger than the threshold voltage is called as Inversion mode of operation   
+   * At threshold voltage a channel form at the surface of the semiconductor due to inversion charges.
+   * Before threshold voltage the charge comes from negatively charged ionized acceptors.
+   * After threshold voltage, the more charge comes from the electrons rather than depleting the holes.
+   * Inversion occurs at voltages beyond the threshold voltage.	 
+   * In inversion, there exists a negatively charged inversion layer at the oxide semiconductor interface in addition to the depletion-layer.
+   * This inversion layer is due to minority carriers, which are attracted to the interface by the positive gate voltage  
+	    
+   ![image](https://user-images.githubusercontent.com/121996204/217424851-abe04d89-a01b-4a7a-9b4a-48aa97e03a0f.png)
+  
+   ![image](https://user-images.githubusercontent.com/121996204/217424739-c8e1a40d-2a44-4d97-bbfd-a1078ac539f0.png)
+	   
 	   
    </details>
+
 	   
+	   
+4. Flat-band and Threshold voltage	   
+
    <details><summary> Threshold voltage and Flat-band </summary> 
-	   
-   * Flatband conditions exist when no charge is present in the semiconductor so that the Si energy band is flat	   
+
+   **Flat-band:**
+ 
+   * Flatband conditions exist when no charge is present in the semiconductor so that the Si energy band is flat	 
+   * Flat band means flatness of conduction and valence band edges at semiconductor surface  
+   * The voltage separating the accumulation and depletion regime is referred to as the flatband voltage, VFB.
+   * The flatband voltage is obtained when the applied gate voltage equals the workfunction difference between the gate metal and the semiconductor.
+   * If there is a fixed charge in the oxide and/or at the oxide-silicon interface, the expression for the flatband voltage must be modified accordingly.
+	      
+   ![image](https://user-images.githubusercontent.com/121996204/217428109-7155ecf7-bc14-46e6-9e92-d10f937d727e.png)
+	
 	   
    </details>
-	   
    </details>
+
+
+	  
+
 	   
    <details><summary> C-V Characteristic </summary> 
 
+    * This frequency dependence occurs primarily in inversion since a certain time is needed to generate the minority carriers in the inversion layer.
+    * Thermal equilibrium is therefore not immediately obtained.
+    * Capacitance depends on frequency of applied signal.
+    * If speed of variation is slow enough so that electrons can be generated by thermal generation fast enough to be created in phase with applied signal, then Cs is       very large
+    * A very low frequency, the recombination-generation kinetics of electrons can vary in response to the vltage variations, therefore capacitance resembles thatof         the parallel plate capacitor
+
+
+   ![image](https://user-images.githubusercontent.com/121996204/217453095-e1d1118c-2162-4f82-b1bb-932a6a4c6638.png)	   
 	   
    </details>
 	   
-   <details><summary> Non-Ideal MOS Capacitor </summary> 
-	   
-   </details>
-   </details>
 	
+	
+	
+	
+	
+   <details><summary> Non-Ideal MOS Capacitor </summary> 
+
+   #### **Non-Ideal MOS Junction or Capacitor**	   
+	   
+   1. Effect of fixed charge Qf
+      * To cerate a zero charge on silicon a negative voltage is required to give at gate terminal.
+      * By applying a negative volute at gate the surface charge at silicon will be zero.
+      * Zero charge in the semiconductor corresponds to flat-band condition of a MOS junction.	   
+
+	   
+   2. Effect of work metal-semiconductor work function difference ϕms
+      * Electrons are always moves from higher energy level to lower energy level.
+      * Electrons are transferred through wire.
+      * To remove the electrons from semiconductor surface we have to provide a –ve voltage to the gate.
+	   
+   </details>
+   </details>
+
+	   
+	   
+	   
+	   
+	   
+	   
 <details><summary> Assignment </summary>
 
-	
-	
-	
-	
 ### **Assignment**
    
    <details><summary> Assignment - Metal-Oxide-Semiconductor Structure </summary>
@@ -1257,3 +1335,179 @@ When there is no voltage across the gate terminal, then the device does not cond
 
    </details>
    </details>
+
+
+
+
+
+
+
+
+## **Day 5 - Metal-Oxide-Semiconductor - FIELD EFFECT TRANSISTOR**
+
+<details><summary> Theory </summary>
+
+### **Theory- Metal-Oxide-Semiconductor - FIELD EFFECT TRANSISTOR**
+
+   <details><summary> MOSFET </summary> 
+	   
+   * **MOSFET**
+
+      * Metal Oxide Semiconductor Field Effect Transistors commonly known as MOSFET
+      * MOSFET is a semiconductor device that is widely used for switching purposes and for the amplification of electronic signals in electronic devices. 
+      * It is a voltage controlled device and is constructed by four terminal which are: source(S), gate (G), drain (D) and body (B) terminals
+      * In general, The body of the MOSFET is in connection with the source terminal thus forming a three-terminal device such as a field-effect transistor
+
+	   
+![image](https://user-images.githubusercontent.com/121996204/217461966-77ebe569-8e70-4f0c-852b-584313996072.png)
+
+![image](https://user-images.githubusercontent.com/121996204/217476909-8c7e786b-9ef6-4ffb-a108-6f7e2d7f95a4.png)	   
+	   
+   </details>	   	   
+	  
+	   
+	 
+	   
+
+   <details><summary> MOSFET Types </summary> 
+	   
+* **MOSFET Types**	
+	   
+    * MOSFETs are of two classes: Enhancement mode and depletion mode. 
+	   
+   <details><summary> 1. Depletion Mode </summary> 	   
+	   
+   * **Depletion Mode**
+	   
+     * When there is no voltage across the gate terminal, the channel shows its maximum conductance. Whereas when the voltage across the gate terminal is either             positive or negative, then the channel conductivity decreases. 
+
+   </details>	   
+	
+	   
+	   
+   <details><summary> 2. Enhancement Mode </summary> 	  
+	   
+   * **Enhancement Mode**
+	   
+     * When there is no voltage across the gate terminal, then the device does not conduct. When there is the maximum voltage across the gate terminal, then the              device shows enhanced conductivity
+
+   </details>	  
+	   
+	   
+    * Each class is available as n-channel or p-channel, hence overall they tally up to four types of MOSFETs
+    * Now with respect to the working principle, MOSFET is classified as follows:
+
+      * P-Channel Depletion MOSFET
+      * P-Channel Enhancement MOSFET
+      * N-Channel Depletion MOSFET
+      * N-Channel Enhancement MOSFET   
+	   
+![image](https://user-images.githubusercontent.com/121996204/217478342-be9a56ba-f98c-45c6-b001-d370291622fa.png)
+	   
+   </details>		   
+      
+	   
+   <details><summary>  MOSFET Operation (N-Channel and P-Channel) </summary> 
+	   
+* **MOSFET Operation (N-Channel and P-Channel)**
+	   
+   <details><summary> 1. MOSFET Operation (N-Channel) </summary> 
+	   
+   * **MOSFET Operation (N-Channel)**
+
+      * The drain and source are heavily doped N+ region and the substrate is p-type. The current flows due to the flow of negatively charged electrons and that’s why         known as n-channel MOSFET. 
+
+      * When we apply the positive gate voltage, the holes present beneath the oxide layer experience repulsive force, and the holes are pushed downwards into the             bound negative charges which are associated with the acceptor atoms. 
+
+      * The positive gate voltage also attracts electrons from the N+ source and drain region into the channel thus an electron reach channel is formed.
+	   
+   ![image](https://user-images.githubusercontent.com/121996204/217480456-7c26afd8-8526-46f9-aace-c29fbbd77f7e.png)
+
+   ![image](https://user-images.githubusercontent.com/121996204/217484987-9abaef3d-5e36-4efb-a412-a70b2c462ef8.png)
+	   
+   </details>		   
+	 
+	   
+	   
+   <details><summary> 2. MOSFET Operation (P-Channel) </summary> 
+	   
+   * **MOSFET Operation (P-Channel)**
+	   
+      * The drain and source are heavily doped p+ region and the substrate is in n-type. The current flows due to the flow of positively charged holes, and that’s why         known as p-channel MOSFET. 
+
+      * When we apply negative gate voltage, the electrons present beneath the oxide layer experience repulsive force and are pushed downward into the substrate, the         depletion region is populated by the bound positive charges which are associated with the donor atoms. 
+
+      * The negative gate voltage also attracts holes from the P+ source and drain region into the channel region.
+	   
+   ![image](https://user-images.githubusercontent.com/121996204/217480349-53eb46b4-a023-4462-a53d-329c279f7fec.png)
+
+   ![image](https://user-images.githubusercontent.com/121996204/217484332-a715f9e4-d74a-4cf6-8318-53de51a8326f.png)
+	   
+
+   </details>	
+ 
+	   
+   ![image](https://user-images.githubusercontent.com/121996204/217471255-58f3d85b-eaa0-49a5-95f0-fb2e0237ad95.png)
+	   
+   </details>		  
+	   	
+  
+	   
+ 
+
+	   
+	   
+	
+	   
+	   
+	   
+	   
+   <details><summary>  MOSFET Regions of Operation </summary> 	   
+	   
+* **MOSFET Regions of Operation**	   
+	   
+   <details><summary> 1. MOSFET in cutoff mode of operation </summary> 
+
+  1. MOSFET in cutoff mode of operation
+	
+      * It is the region where the device will be in the OFF condition and there zero amount of current flow through it. 
+      * Here, the device functions as a basic/open switch and is so employed as when they are necessary to operate as electrical switches	   
+	   
+   ![image](https://user-images.githubusercontent.com/121996204/217459119-844b0eab-ce11-43f1-a6aa-d6e075c54f53.png)
+
+   ![image](https://user-images.githubusercontent.com/121996204/217486340-a48af3d8-9efd-48c5-8cf8-d2d6a9168f6e.png)
+	   
+   </details>
+	
+	   
+	   
+   <details><summary> 2. MOSFET in linear or triode mode of operation </summary> 
+
+   2. MOSFET in linear or triode mode of operation
+
+      * It is the region where the current across the drain to source terminal enhances with the increment in the voltage across the drain to source path. 
+      * When the MOSFET devices function in this linear region, they perform amplifier functionality.
+	
+   ![image](https://user-images.githubusercontent.com/121996204/217459184-d18a3e54-7830-48fa-971d-26224eb30f52.png)	
+
+   ![image](https://user-images.githubusercontent.com/121996204/217486376-686400f7-3419-4415-8b98-7ade12b3bfaf.png)
+	   
+   </details>
+	   
+	   
+	   
+   <details><summary> 3. MOSFET in saturation mode of operation </summary> 
+
+   3. MOSFET in saturation mode of operation
+	
+      * In this region, the devices will have their drain to source current value as constant without considering the enhancement in the voltage across the drain to           source. 
+      * This happens only once when the voltage across the drain to source terminal increases more than the pinch-off voltage value. 
+      * In this scenario, the device functions as a closed switch where a saturated level of current across the drain to source terminals flows. 
+      * Due to this, the saturation region is selected when the devices are supposed to perform switching.	
+	
+   ![image](https://user-images.githubusercontent.com/121996204/217459249-674efd9b-88c4-4015-b698-9bff7276aed5.png)
+
+   ![image](https://user-images.githubusercontent.com/121996204/217486420-1a06c3c6-7eec-4c10-88d1-dcfbcb495855.png)
+
+   </details>
+   </details>	   
