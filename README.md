@@ -1511,3 +1511,326 @@ When there is no voltage across the gate terminal, then the device does not cond
 
    </details>
    </details>	   
+   </details>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+## **Day 6 - MOSFET Intrinsic Capacitances**
+
+<details><summary> Theory </summary>
+
+### **Theory- MOSFET Intrinsic Capacitances**
+
+	
+	
+	
+   <details><summary> MOSFET Intrinsic Capacitance: Cutoff Region </summary> 
+	   
+   * **MOSFET Intrinsic Capacitance: Cutoff Region**
+
+       * Cutoff:
+         * no channel capacitance
+         * Only gate-to-bulk capacitance (High value)
+	   
+![image](https://user-images.githubusercontent.com/121996204/217684829-45b9b160-23a0-4cea-aafb-ab3262225f3e.png)
+	   
+	   
+   </details>	  
+	
+	
+   <details><summary> MOSFET Intrinsic Capacitance: Linear Region </summary> 
+	   
+   * **MOSFET Intrinsic Capacitance: Linear Region**
+
+       * Linear:
+         * Cgsch, Cgdch : Gate-to-channel at source side and gate-to-channel at drain side
+         * Voltage dependent
+         * ![image](https://user-images.githubusercontent.com/121996204/217688440-ee824edb-86cb-439e-8bbe-d3f299c8a99c.png)
+
+	   
+![image](https://user-images.githubusercontent.com/121996204/217684886-47c9c833-199d-4ed3-b43f-ee0b72227003.png)
+	   
+	   
+	   
+   </details>	
+	
+	
+
+	
+   <details><summary> MOSFET Intrinsic Capacitance: Saturation Region </summary> 
+	   
+   * **MOSFET Intrinsic Capacitance: Saturation Region**
+
+       * Saturation:
+         * Cgsch : Gate-to-channel at source side
+         * No drain side capacitance because of pinch-off
+         * ![image](https://user-images.githubusercontent.com/121996204/217689196-1614ed3e-73b4-4c76-804c-d1838e730911.png)
+
+	   
+![image](https://user-images.githubusercontent.com/121996204/217689254-6692effc-96bb-4475-8d69-17f8b3fba3b4.png)
+
+	   
+	   
+   </details>	
+	
+
+	
+	
+	
+	
+	
+   <details><summary> Schematic Design, Circuit Simulation, Layout Design and Postlayout Simulation </summary> 
+	   
+   * **Schematic Design, Circuit Simulation, Layout Design and Postlayout Simulation**
+
+      * **Custom IC Design Process**
+	   
+![image](https://user-images.githubusercontent.com/121996204/217685349-5a915b5f-0d70-41f1-bc7a-1241a1d5d236.png)
+
+	   
+	   
+	   
+	   
+   * **Custom IC Design Flow using Tools**	
+	   
+|      **Schematic Drawing Phase**     | 
+|  ---------------    | 
+|  Step-1: Schematic entry |  
+|  Step-2: Symbol creation |  	   
+|  Step-3: Create testbench for simulation |  	   
+
+|      **Circuit Simulation Phase**     | 
+|  ---------------    | 
+|  Step-4: Launch ADE-L |  
+|  Step-5: Select simulation type:DC operating point sim, DC sweep simulation, Transient Simulation and AC simulation|  	   
+|  Step-6: Plot waveforms and use calculators to plot for some predefined functions (rise time, fall time, delay, derivative, gain margin, phase margin etc) |  
+|  Step-7: Do parametric simulation (vary two variable at a time) |  
+	   
+	   
+|      **Layout Design and Verification Phase**     | 
+|  ---------------    | 
+|  Step-8: Generate layout from schematic |  
+|  Step-9: Place the components |  	   
+|  Step-10: Routing between the components, supply and ground. |  
+|  Step-11: Verify the layout with the design rule (DRC). |  	   
+|  Step-12: Verify the layout with schematic (LVS) |  
+|  Step-13: Extract the parasitic and create a schematic view of the that extracted netlist |  	   
+	   
+|      **Post Layout Simulation Phase**     | 
+|  ---------------    | 
+|  Step-14: Create config view |  
+|  Step-15: Do the simulation for both views and compare the result. Follow same process as you have done pre-layout simulation. Only difference is instead of schematic netlist you will use parasitic extracted netlist.   |  	   
+   
+   </details>	
+
+	
+
+	
+  <details><summary> Custom IC Design Flow </summary> 	
+	  
+  <details><summary> Custom IC Design Flow: Schematic Phase </summary> 
+	   
+   * **Custom IC Design Flow: Schematic Phase**
+
+![image](https://user-images.githubusercontent.com/121996204/217701961-5f8891c3-60bf-4ca3-aa77-bbc64f67e194.png)
+	  
+   </details>		
+
+	
+
+  <details><summary> Custom IC Design Flow: Simulation Phase </summary> 
+	   
+   * **Custom IC Design Flow: Schematic Phase**
+
+![image](https://user-images.githubusercontent.com/121996204/217702390-7d331a06-70cb-4df3-ab27-12130640bdc1.png)
+
+	  
+   </details>		
+
+	  
+	  
+  <details><summary> Custom IC Design Flow: Simulation Phase (AC and Transient) </summary> 
+	   
+   * **Custom IC Design Flow: Simulation Phase (AC and Transient)**
+
+![image](https://user-images.githubusercontent.com/121996204/217702657-52d5351e-d045-4979-bab2-902da6b939fe.png)
+
+	  
+   </details>		
+	
+	
+	  
+  <details><summary> Custom IC Design Flow: Layout Phase (Generate from Source) </summary> 
+	   
+   * **Custom IC Design Flow: Layout Phase (Generate from Source)**
+
+![image](https://user-images.githubusercontent.com/121996204/217702737-ee957eea-6cf7-4563-b19c-f07d59a260f2.png)
+
+
+	  
+   </details>	
+   </details>	
+   </details>		  
+	  
+	  
+	  
+	  
+
+
+
+
+	  
+	  
+	
+## **Day 7 - CMOS Inverter**
+
+<details><summary> Theory </summary>
+
+### **Theory- CMOS Inverter**
+
+	
+	
+	
+   <details><summary> CMOS Inverter </summary> 
+	   
+   * **CMOS Inverter**
+
+      * Complementary Metal oxide semiconductor inverter consists of an n-MOS transistor and p-MOS transistor as a load 
+      * the gates of the two transistors are shorted at the input  
+      * the drains of the two transistors are also shorted where the output is obtained
+      * the source n-MOS and p-MOS transistors of the CMOS Inverter are connected to the ground and supply respectively
+
+   * this gate with respect to different design matrices such as:
+	   
+      * Cost: Expressed by the complexity and area  
+      * Integrity and robustness: Expressed by the static (steady-state) behavior.
+      * Performance: Determined by the dynamic (or transient) response.
+      * Energy Efficiency: Set by the energy and power consumption
+
+	   
+![image](https://user-images.githubusercontent.com/121996204/217683651-38ba1daf-f8dc-4f8d-9673-b701a4324ab4.png)
+
+   </details>	
+	
+	
+
+	
+	
+   <details><summary> CMOS Inverter: Static Characteristics </summary> 
+	   
+   * **CMOS Inverter: Static Characteristics**
+
+      * When Vin is high and equal to VDD, the n-MOS transistor is ON while P-MOS is off.
+      * On the other hand, when the input voltage is 0V, n-MOS and p-MOS transistors are OFF and ON respectively.
+      * Here High and low levels refer to VDD and grounds respectively. 
+      * It means the voltage swing (Rail-to-rail swing) is the same as the voltage supply. This leads to a high noise margin.	 
+      * In steady state there is always exist a path with a fine resistance between the output and either VDD or Ground. This results low output impedance and less           sensitive to noise.
+      * Input impedance of the CMOS inverter is extremely high. Theoretically, a single inverter can drive infinite number of gates.
+      * No direct path exit between supply and ground. Static power almost zero.
+   
+![image](https://user-images.githubusercontent.com/121996204/217706823-c7e3534c-f704-4925-b7b1-74a31202fe17.png)
+
+![image](https://user-images.githubusercontent.com/121996204/217706544-3abbcf6d-4215-4f3d-ae65-84e4e22c9df4.png)
+
+   </details>
+	
+	
+	
+	
+	
+	
+   <details><summary> CMOS Inverter: MOSFET Strength Variation </summary> 
+	   
+   * **CMOS Inverter: MOSFET Strength Variation**
+	   
+        * ![image](https://user-images.githubusercontent.com/121996204/217711721-4e2d8caf-1138-48b5-a4fb-cd14b22bf33d.png)
+	   
+|         NMOS          |     PMOS      |   TRANSITION      |
+|  -------------    | ------------- | ----------- |
+|  weak   |     weak      |    less slope     |
+|    strong    |    strong     |  more slope    |
+|    weak      |     strong      |    right shift      |
+|    strong    |     weak       |    left shift     |
+  
+
+   </details>	 
+	
+	
+	
+	
+   <details><summary> CMOS Inverter: Noise Margin </summary> 
+	   
+   * **CMOS Inverter: Noise Margin**
+	   
+       * The characteristics of an inverter define the allowable noise voltage on the input of the gate so that output will not be affected.
+	   
+         * Transition Region: 𝑉𝐼𝐻−𝑉𝐼𝐿
+	   
+         * 𝑉𝐼𝐻−𝑉𝐼𝐿=((𝑉0𝐿−𝑉𝑂𝐻)/𝐺𝐴𝐼𝑁)=−𝑉𝐷𝐷/𝐺𝐴𝐼𝑁
+	   
+         * 𝑉𝐼𝐻=𝑉𝑀+((0−𝑉𝑀)/𝐺𝐴𝐼𝑁)
+	   
+         * 𝑉𝐼𝐿=𝑉𝑀−((𝑉𝑀−𝑉𝐷𝐷)/𝐺𝐴𝐼𝑁)
+	   
+         * Noise Margin High: 𝑁𝑀𝐻=𝑉𝐷𝐷−𝑉𝐼𝐻
+	   
+         * Noise Margin Low: 𝑁𝑀𝐿= 𝑉𝐼𝐿
+	   
+         * ![image](https://user-images.githubusercontent.com/121996204/217710343-7a6ec536-b3ca-4dcc-98aa-defe8a9cae76.png)
+
+
+
+   </details>		
+	
+
+	
+	
+   <details><summary> CMOS Inverter: Dynamic Characteristics </summary> 
+	   
+   * **CMOS Inverter: Dynamic Characteristics**
+
+      * ![image](https://user-images.githubusercontent.com/121996204/217716366-da2aeaa1-9281-40c4-b170-c108004100a2.png)
+
+
+
+   </details>	
+	
+	
+	
+	
+	
+	
+   <details><summary> CMOS Inverter: Dynamic Characteristics </summary> 
+	   
+   * **CMOS Inverter: Dynamic Characteristics**
+
+      * ![image](https://user-images.githubusercontent.com/121996204/217716366-da2aeaa1-9281-40c4-b170-c108004100a2.png)
+
+
+
+   </details>	
+	
+	
+	
+	
+	
+	
+   <details><summary> CMOS Inverter: Dynamic Characteristics </summary> 
+	   
+   * **CMOS Inverter: Dynamic Characteristics**
+
+      * ![image](https://user-images.githubusercontent.com/121996204/217716366-da2aeaa1-9281-40c4-b170-c108004100a2.png)
+
+
+
+   </details>	
