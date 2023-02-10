@@ -6,8 +6,8 @@
 + **[ Day 4 - Metal-Oxide-Semiconductor Structure ](https://github.com/nuralia1/Intel-Training#day-4---metal-oxide-semiconductor-structure)**
 
 + **[ Day 5 - Metal-Oxide-Semiconductor Field Effect Transistor ](https://github.com/nuralia1/Intel-Training#day-5---metal-oxide-semiconductor---field-effect-transistor)**
-
-
++ **[ Day 6 - MOSFET Intrinsic Capacitances ](https://github.com/nuralia1/Intel-Training#day-6---mosfet-intrinsic-capacitances)**
++ **[ Day 7 - CMOS Inverter ](https://github.com/nuralia1/Intel-Training#day-7---cmos-inverter)**
 
 
 ## **Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon**
@@ -1795,29 +1795,66 @@ When there is no voltage across the gate terminal, then the device does not cond
 
 	
 	
-   <details><summary> CMOS Inverter: Dynamic Characteristics </summary> 
+   <details><summary> CMOS Inverter: Dynamic Behaviour </summary> 
 	   
-   * **CMOS Inverter: Dynamic Characteristics**
+   * **CMOS Inverter: Dynamic Behaviour**
 
-      * ![image](https://user-images.githubusercontent.com/121996204/217716366-da2aeaa1-9281-40c4-b170-c108004100a2.png)
+       * High performance CMOS circuit should have less propagation delay, less rise time and less fall time.
+	   
+       * Propagation delay = determined by the time it takes to charge and discharge the load capacitance CL through the PMOS and NMOS transistors respectively.
+	   
+       * If CL (capacitor) increases:
+         * Propagation delay (PD) increases
+         * Output rise time (Trise) increases
+         * Output fall time (Tfall) increases
+	   
+	 * ![image](https://user-images.githubusercontent.com/121996204/217716366-da2aeaa1-9281-40c4-b170-c108004100a2.png)
 
-
-
+     
    </details>	
 	
 	
 	
-	
-	
-	
    <details><summary> CMOS Inverter: Dynamic Characteristics </summary> 
 	   
    * **CMOS Inverter: Dynamic Characteristics**
 
-      * ![image](https://user-images.githubusercontent.com/121996204/217716366-da2aeaa1-9281-40c4-b170-c108004100a2.png)
+       * Rise Time:
+         * The time required for the output voltage to rise from 10% to 90% of the supply voltage 
+         * ![image](https://user-images.githubusercontent.com/121996204/217737242-93f3ea1b-d8c2-47f5-8ddc-69417c8d7509.png)
 
+	  
+       * Fall Time:
+         * The time required the output voltage to fall from 90% to 10% of the supply voltage
+	 ![image](https://user-images.githubusercontent.com/121996204/217737293-d914cbe0-f278-4f31-aa51-bc7ad5516128.png)
+	   
+	   
+       * Contamination Delay (tcd): 
+         * It is the smallest time from the 50% input crossing to the 50% output	   
+	   
+	   
+       * Propagation Delay (Tp): 
+         * Input to output delay during the signal transition (at 50%)
+         * Tplh: Propagation delay at low to high transition at output
+         * Tphl: Propagation delay at high to low transition at output
+         * ![image](https://user-images.githubusercontent.com/121996204/217736674-01cbbd5c-f2ee-483f-bc6b-a1c3ded29c13.png)
 
-
+	   
+ * Propagation Delay (Tp) of a gate can be minimized in following ways:  
+	   
+   * Reduce CL
+     * Internal diffusion capacitance
+     * Interconnect capacitance
+     * Fanout capacitance
+      
+   * Increase the  W/L   ratio of transistors
+     * W/L  ratio proportional to CL: once intrinsic capacitance starts dominating  CL increasing gate size does not longer help in reducing the delay.
+     * Increase area (self loading)
+     * Increase the fanout factor of the driving gate
+	   
+   * Increase VDD
+     * Delay of a gate can be modulated by modifying the supply voltage
+	   
    </details>	
 	
 	
